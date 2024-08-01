@@ -1,39 +1,52 @@
 {
-    "name": "kingraph",
-    "description": "Plots family trees using JavaScript and Graphviz",
-    "version": "0.2.0",
-    "author": "Rico Sta. Cruz <rico@ricostacruz.com> (http://ricostacruz.com); updated by Alexander Willner (https://github.com/AlexanderWillner/kingraph)",
-    "bin": {
-        "kingraph": "bin/kingraph"
-    },
-    "dependencies": {
-        "js-yaml": "3.13.1",
-        "meow": "3.7.0",
-        "object-assign": "4.1.1",
-        "object-loops": "0.8.0",
-        "read-input": "0.3.1",
-        "strip-indent": "3.0.0",
-        "svg2png": "4.1.1",
-        "viz.js": "1.8.1"
-    },
-    "browser": {
-        "lib/to_png.js": "lib/to_png.browser.js"
-    },
-    "devDependencies": {
-        "istanbul": "^0.4.5",
-        "prettier": "^2.4.1",
-        "tape": "4.13.0"
-    },
-    "keywords": [
-        "ancestry",
-        "family",
-        "family tree",
-        "genealogy",
-        "pedigree"
-    ],
-    "license": "MIT",
-    "main": "index.js",
-    "scripts": {
-        "test": "tape lib/**/*.test.js"
-    }
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "description": "Plots family trees using TypeScript and Graphviz",
+  "homepage": "https://github.com/alxflam/kingraph-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxflam/kingraph-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alxflam/kingraph-ts/issues"
+  },
+  "type": "module",
+  "main": "./out/index.js",
+  "files": [
+    "bin",
+    "out",
+    "src"
+  ],
+  "scripts": {
+    "build": "npx tsc -b tsconfig.src.json",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "mutate": "npx stryker run",
+    "start": "node ./dist/index.js -h",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "devDependencies": {
+    "@stryker-mutator/typescript-checker": "^8.2.6",
+    "@stryker-mutator/vitest-runner": "^8.2.6",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.12",
+    "@types/yargs": "^17.0.32",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitest/coverage-v8": "^2.0.4",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
+  },
+  "dependencies": {
+    "@viz-js/viz": "^3.7.0",
+    "jsdom": "^24.1.1",
+    "yaml": "^2.5.0",
+    "yargs": "^17.7.2"
+  }
 }

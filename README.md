@@ -1,7 +1,6 @@
 # kingraph
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code Climate](https://img.shields.io/codeclimate/maintainability/vorburger/kingraph.svg?style=flat-square)](https://codeclimate.com/github/vorburger/kingraph)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/vorburger/kingraph/issues)
 
 > 👪 Plots family trees using JavaScript and Graphviz
@@ -26,17 +25,15 @@ people:
     fullname: Marjorie Bouvier Simpson
 ```
 
-Use `kingraph` via [this project's Docker Container image](https://github.com/vorburger/kingraph/pkgs/container/kingraph) to transform this YAML into a [Graphviz](https://graphviz.org) DOT file, and then that into a SVG and PDF:
+Build the project and then run the CLI application to transform a YAML file into a Graphviz DOT file or SVG:
 
 ```sh
-docker run --rm -v $(pwd):/data --pull=always ghcr.io/vorburger/kingraph:latest --format=dot family.yaml >family.dot
-dot -Tsvg -o family.svg family.dot
-open family.svg
-dot -Tpdf -o family.pdf family.dot
-open family.pdf
+npm i
+npm run build
+./out/index.js -y family.yaml -f dot > family.dot
 ```
 
-You can also try to generate a SVG with `kingraph` directly by using `--format=svg`, but you'll likely [run into memory issues](https://github.com/rstacruz/kingraph/issues/6).
+You can also try to generate a SVG with `kingraph-ts` directly by using `--format svg`, but you'll likely [run into memory issues](https://github.com/rstacruz/kingraph/issues/6).
 
 ## Further Examples
 
@@ -83,23 +80,32 @@ For further reading:
 - [Schema](docs/schema.md)
 
 ## Develop
+Ensure you have node.js 20 installed and run the following commands:
 
-As per the [`Dockerfile`](Dockerfile), you need Node.js, and then in order to locally hack on this code, just do:
+```sh
+npm i
+npm run build
+```
 
-    npm install
-    bin/kingraph
+To execute tests, coverage and mutation tests run the following commands:
 
-To try out the Docker build locally:
+```sh
+npm run test
+npm run coverage
+npm run mutate
+```
 
-    docker build -t kingraph .
-    docker run ... kingraph ... # instead of ghcr.io/vorburger/kingraph:latest
+To lint and format the code run the following commands:
+
+```sh
+npm run lint
+npm run format
+```
 
 ## Thanks
 
-Authored and initially maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+Authored and initially maintained by Rico Sta. Cruz in 2016 with help from [contributors](http://github.com/vorburger/kingraph/contributors).
 
-> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
-> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
-> Twitter [@rstacruz](https://twitter.com/rstacruz)
+Forked in 2022 by [vorburger](https://github.com/vorburger/kingraph).
 
-[contributors]: http://github.com/vorburger/kingraph/contributors
+Forked in 2024 by [alxflam](https://github.com/alxflam/kingraph-ts)

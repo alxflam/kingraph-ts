@@ -2,20 +2,19 @@
 
 A family tree is a [YAML](http://yaml.org/) file. Start with a `families` collection. Every family can have `parents` and `children`.
 
-```diff
-+families:
-+  - parents: [Marge, Homer]
-+    children: [Bart, Lisa, Maggie]
+```yaml
+families:
+  - parents: [Marge, Homer]
+    children: [Bart, Lisa, Maggie]
 ```
 
 ## Generating
 
-kingraph can give you `svg` (default), `png` or `dot` files. However, using `dot` output and converting it via `dot` is recommended.
+kingraph can give you `svg` (default) or `dot` files. However, using `dot` output and converting it via `dot` is recommended.
 
 ```sh
-kingraph family.yaml > family.svg
-kingraph family.yaml -F png > family.png
-kingraph family.yaml -F dot > family.dot
+kingraph-ts family.yaml > family.svg
+kingraph-ts family.yaml -f dot > family.dot
 ```
 
 ## Defining names
@@ -69,13 +68,9 @@ To add families into a house, nest the families.
 +        children: [Zia]
 ```
 
-<details>
-<summary>*Why nest?*</summary>
-
 Families can be placed as sub-families of another families. This is more of a visual designation rather than a semantic one. If the parent family is a "house", then the sub-families will show up in the same house.
 
 It also helps to untangle your YAML file.
-</details>
 
 ## Next
 

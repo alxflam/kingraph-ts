@@ -1,0 +1,26 @@
+{
+    "testRunner": "vitest",
+    "mutate": [
+        "src/**/*.ts",
+        "!src/defaults/*.ts",
+        "!src/index.ts",
+        "!src/render_graph.ts",
+        "!src/render.ts",
+        "!src/type.ts"
+    ],
+    "vitest": {
+        "configFile": "vitest.config.ts"
+    },
+    "checkers": [
+        "typescript"
+    ],
+    "thresholds": {
+        "high": 80,
+        "low": 60,
+        "break": 60
+    },
+    "tsconfigFile": "tsconfig.json",
+    "typescriptChecker": {
+        "prioritizePerformanceOverAccuracy": true
+    }
+}
