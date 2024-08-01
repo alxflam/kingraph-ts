@@ -34,3 +34,9 @@ jobs:
         run: npm run coverage
       - name: Mutation Tests
         run: npm run mutate
+      - name: Make scripts executable
+        run: |
+          chmod a+x ./examples/recreate.sh
+          chmod a+x ./out/index.js
+      - name: Recreate example SVGs
+        run: ./examples/recreate.sh
