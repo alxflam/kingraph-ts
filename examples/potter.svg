@@ -1,1 +1,557 @@
-<svg height="970pt" viewBox="0 0 812 970" width="812pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(4 966)"><path d="m-4 4v-970h812v970z" fill="#fff"/><path d="m34-763v-191h762v191z" fill="#fafafa" stroke="#fafafa"/><text font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" x="42" y="-936.6">Potter</text><path d="m34-618v-137h481v137z" fill="#fafafa" stroke="#fafafa"/><text font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" x="42" y="-737.6">Dursley</text><path d="m34-153v-457h762v457z" fill="#fafafa" stroke="#fafafa"/><text font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" x="42" y="-592.6">Weasley</text><path d="m34-8v-137h272v137z" fill="#fafafa" stroke="#fafafa"/><text font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" x="42" y="-127.6">Granger</text><ellipse cx="537.5" cy="-845" fill="#2ecc71" rx="3.5" ry="3.5" stroke="#fff"/><path d="m577-845.5h-7v1h7z" fill="#2ecc71"/><path d="m541.083-845h28.632" fill="none" stroke="#2ecc71"/><path d="m505-863h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-840.8">Harry</text><path d="m505.315-845h28.418" fill="none" stroke="#2ecc71"/><path d="m505-809h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-786.8">Ginny</text><path d="m505.264-797h31.736s0-32.918 0-44.234" fill="none" stroke="#2ecc71"/><path d="m786-917h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-894.8">James II</text><path d="m574-845.606c0-5.933 0-53.394 0-53.394h21.736" fill="none" stroke="#2ecc71"/><path d="m603.735-889 .001-20h-4l-.001 20z" fill="#2ecc71" stroke="#2ecc71"/><path d="m605.736-899h-10" fill="none" stroke="#2ecc71"/><path d="m786-809h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-786.8">Lily II</text><path d="m573-844.326v59.326h22.962" fill="none" stroke="#2ecc71"/><path d="m603.962-775v-20h-4v20z" fill="#2ecc71" stroke="#2ecc71"/><path d="m605.962-785h-10" fill="none" stroke="#2ecc71"/><path d="m786-863h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-840.8">Albus</text><path d="m577.034-845h18.777" fill="none" stroke="#2ecc71"/><path d="m603.81-835 .001-20h-4l-.001 20z" fill="#2ecc71" stroke="#2ecc71"/><path d="m605.811-845h-10" fill="none" stroke="#2ecc71"/><ellipse cx="256.5" cy="-845" fill="#1abc9c" rx="3.5" ry="3.5" stroke="#fff"/><path d="m296-845.5h-7v1h7z" fill="#1abc9c"/><path d="m260.083-845h28.632" fill="none" stroke="#1abc9c"/><a xlink:href="http://harrypotter.wikia.com/wiki/James_Potter_I" xlink:title="&lt;TABLE&gt;"><path d="m224-875h-180v42h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" x="113.387" y="-856.4">James</text><text fill="#aaa" font-family="Helvetica, Arial, sans-serif" font-size="10" x="101.771" y="-842">James Potter I</text></a><path d="m224.315-845h28.418" fill="none" stroke="#1abc9c"/><a xlink:href="http://harrypotter.wikia.com/wiki/Lily_J._Potter" xlink:title="&lt;TABLE&gt;"><path d="m224-815h-180v42h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" x="124.002" y="-796.4">Lily</text><text fill="#aaa" font-family="Helvetica, Arial, sans-serif" font-size="10" x="111.719" y="-782">Lily Evans</text></a><path d="m224.038-797h32.962s0-32.918 0-44.234" fill="none" stroke="#1abc9c"/><path d="m296.034-845h18.777" fill="none" stroke="#1abc9c"/><path d="m322.81-835 .001-20h-4l-.001 20z" fill="#1abc9c" stroke="#1abc9c"/><path d="m324.811-845h-10" fill="none" stroke="#1abc9c"/><ellipse cx="256.5" cy="-700" fill="#3498db" rx="3.5" ry="3.5" stroke="#fff"/><path d="m296-700.5h-7v1h7z" fill="#3498db"/><path d="m260.083-700h28.632" fill="none" stroke="#3498db"/><path d="m224-718h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-695.8">Vernon</text><path d="m224.315-700h28.418" fill="none" stroke="#3498db"/><path d="m224-664h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-641.8">Petunia</text><path d="m224.264-646h31.736s0-38.443 0-50.457" fill="none" stroke="#3498db"/><path d="m293-700.876c0-11.69 0-136.374 0-136.374h21.736" fill="none" stroke="#3498db" stroke-dasharray="5 2" stroke-width=".25"/><path d="m322.735-827.25.001-20h-4l-.001 20z" fill="#3498db" stroke="#3498db" stroke-width=".25"/><path d="m324.736-837.25h-10" fill="none" stroke="#3498db" stroke-width=".25"/><path d="m505-718h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-695.8">Dudley</text><path d="m296.034-700h18.777" fill="none" stroke="#3498db"/><path d="m322.81-690 .001-20h-4l-.001 20z" fill="#3498db" stroke="#3498db"/><path d="m324.811-700h-10" fill="none" stroke="#3498db"/><ellipse cx="537.5" cy="-347" fill="#34495e" rx="3.5" ry="3.5" stroke="#fff"/><path d="m577-347.5h-7v1h7z" fill="#34495e"/><path d="m541.083-347h28.632" fill="none" stroke="#34495e"/><path d="m505-411h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-388.8">Bill</text><path d="m505.264-379h31.736v28.076" fill="none" stroke="#34495e"/><a xlink:href="http://harrypotter.wikia.com/wiki/Fleur_Delacour" xlink:title="&lt;TABLE&gt;"><path d="m505-357h-180v42h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" x="399.558" y="-338.4">Fleur</text><text fill="#aaa" font-family="Helvetica, Arial, sans-serif" font-size="10" x="382.721" y="-324">Fleur Delacour</text></a><path d="m505.315-347h28.418" fill="none" stroke="#34495e"/><path d="m786-419h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-396.8">Victoire</text><path d="m575-347.562c0-5.493 0-49.438 0-49.438h20.846" fill="none" stroke="#34495e"/><path d="m603.846-387 .001-20h-4l-.001 20z" fill="#34495e" stroke="#34495e"/><path d="m605.846-397h-10" fill="none" stroke="#34495e"/><path d="m786-311h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-288.8">Dominique</text><path d="m573-346.394v53.394h22.962" fill="none" stroke="#34495e"/><path d="m603.962-283v-20h-4v20z" fill="#34495e" stroke="#34495e"/><path d="m605.962-293h-10" fill="none" stroke="#34495e"/><path d="m786-365h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-342.8">Louis</text><path d="m577.034-347h18.777" fill="none" stroke="#34495e"/><path d="m603.81-337 .001-20h-4l-.001 20z" fill="#34495e" stroke="#34495e"/><path d="m605.811-347h-10" fill="none" stroke="#34495e"/><ellipse cx="537.5" cy="-474" fill="#f1c40f" rx="3.5" ry="3.5" stroke="#fff"/><path d="m505-519h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-496.8">George</text><path d="m505.116-501h33.884v23.689" fill="none" stroke="#f1c40f"/><path d="m505-465h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-442.8">Angelina</text><path d="m505.116-447h33.884s0-16.479 0-23.689" fill="none" stroke="#f1c40f"/><ellipse cx="537.5" cy="-209" fill="#e67e22" rx="3.5" ry="3.5" stroke="#fff"/><path d="m577-209.5h-7v1h7z" fill="#e67e22"/><path d="m541.083-209h28.632" fill="none" stroke="#e67e22"/><a xlink:href="http://harrypotter.wikia.com/wiki/Ronald_Weasley" xlink:title="&lt;TABLE&gt;"><path d="m505-265h-180v42h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" x="402.664" y="-246.4">Ron</text><text fill="#aaa" font-family="Helvetica, Arial, sans-serif" font-size="10" x="385.774" y="-232">Ron Weasley</text></a><path d="m505.038-233.667h32.962v20.813" fill="none" stroke="#e67e22"/><a xlink:href="http://harrypotter.wikia.com/wiki/Hermione_Granger" xlink:title="&lt;TABLE&gt;"><path d="m505-205h-180v42h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" x="384.668" y="-186.4">Hermione</text><text fill="#aaa" font-family="Helvetica, Arial, sans-serif" font-size="10" x="373.608" y="-172">Hermione Granger</text></a><path d="m505.038-189h32.962s0-10.786 0-16.516" fill="none" stroke="#e67e22"/><path d="m786-201h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-178.8">Rose</text><path d="m574-208.209v31.209h21.736" fill="none" stroke="#e67e22"/><path d="m603.735-167 .001-20h-4l-.001 20z" fill="#e67e22" stroke="#e67e22"/><path d="m605.736-177h-10" fill="none" stroke="#e67e22"/><path d="m786-255h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="696" y="-232.8">Hugo</text><path d="m575-209.873c0-5.441 0-34.46 0-34.46h20.846" fill="none" stroke="#e67e22"/><path d="m603.846-234.333.001-20h-4l-.001 20z" fill="#e67e22" stroke="#e67e22"/><path d="m605.846-244.333h-10" fill="none" stroke="#e67e22"/><ellipse cx="256.5" cy="-501" fill="#9b59b6" rx="3.5" ry="3.5" stroke="#fff"/><path d="m296-501.5h-7v1h7z" fill="#9b59b6"/><path d="m260.083-501h28.632" fill="none" stroke="#9b59b6"/><path d="m224-546h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-523.8">Arthur</text><path d="m224.116-514.5h33.884v10.093" fill="none" stroke="#9b59b6"/><path d="m224-492h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-469.8">Molly</text><g stroke="#9b59b6"><path d="m224.038-487.5h32.962s0-5.814 0-9.811" fill="none"/><path d="m294-501.667c0-4.158 0-26.333 0-26.333h17v-257h3.596" fill="none"/><path d="m322.596-775v-20h-4v20z" fill="#9b59b6"/><path d="m324.596-785h-10" fill="none"/><path d="m293-500.31v107.31h21.736" fill="none"/><path d="m322.735-383 .001-20h-4l-.001 20z" fill="#9b59b6"/><path d="m324.736-393h-10" fill="none"/><path d="m296.034-501h18.777" fill="none"/><path d="m322.81-491 .001-20h-4l-.001 20z" fill="#9b59b6"/><path d="m324.811-501h-10" fill="none"/><path d="m291-500.263v256.263h23.884" fill="none"/><path d="m322.883-234 .001-20h-4l-.001 20z" fill="#9b59b6"/><path d="m324.884-244h-10" fill="none"/></g><path d="m505-573h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="415" y="-550.8">Fred</text><path d="m292-501.703c0-5.378 0-39.797 0-39.797h22.962" fill="none" stroke="#9b59b6"/><path d="m322.962-531.5v-20h-4v20z" fill="#9b59b6" stroke="#9b59b6"/><path d="m324.962-541.5h-10" fill="none" stroke="#9b59b6"/><ellipse cx="256.5" cy="-90" fill="#e74c3c" rx="3.5" ry="3.5" stroke="#fff"/><path d="m296-90.5h-7v1h7z" fill="#e74c3c"/><path d="m260.083-90h28.632" fill="none" stroke="#e74c3c"/><path d="m224-108h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-85.8">Mr Granger</text><path d="m224.315-90h28.418" fill="none" stroke="#e74c3c"/><path d="m224-54h-180v36h180z" fill="#fff" stroke="#ccc"/><text font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" x="134" y="-31.8">Mrs Granger</text><path d="m224.038-36h32.962s0-38.4434 0-50.4569" fill="none" stroke="#e74c3c"/><path d="m295-90.6003c0-8.0057 0-93.3997 0-93.3997h19.972" fill="none" stroke="#e74c3c"/><path d="m322.971-174 .001-20h-4l-.001 20z" fill="#e74c3c" stroke="#e74c3c"/><path d="m324.972-184h-10" fill="none" stroke="#e74c3c"/><path d="m15-720.5h-7v1h7z" fill="#1abc9c"/><path d="m12-720.831c0-8.13 0-73.169 0-73.169h21.7356" fill="none" stroke="#1abc9c"/><path d="m41.7355-784 .0002-20h-4l-.0002 20z" fill="#1abc9c" stroke="#1abc9c"/><path d="m43.7356-794h-10" fill="none" stroke="#1abc9c"/><path d="m12-719.169v73.169h21.7356" fill="none" stroke="#1abc9c"/><path d="m41.7355-636 .0002-20h-4l-.0002 20z" fill="#1abc9c" stroke="#1abc9c"/><path d="m43.7356-646h-10" fill="none" stroke="#1abc9c"/></g></svg>
+<svg width="813pt" height="971pt" viewBox="0.00 0.00 813.00 971.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 967)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-967 809,-967 809,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_family_0</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="34.2,-764 34.2,-955 797,-955 797,-764 34.2,-764"/>
+<text text-anchor="start" x="42.2" y="-937.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Potter</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_family_0_0</title>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_family_1</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="34.2,-619 34.2,-756 515.6,-756 515.6,-619 34.2,-619"/>
+<text text-anchor="start" x="42.2" y="-738.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Dursley</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_family_2</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="34.2,-153 34.2,-611 797,-611 797,-153 34.2,-153"/>
+<text text-anchor="start" x="42.2" y="-593.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Weasley</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_family_2_0</title>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_family_2_1</title>
+</g>
+<g id="clust17" class="cluster">
+<title>cluster_family_2_2</title>
+</g>
+<g id="clust22" class="cluster">
+<title>cluster_family_3</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="34.2,-8 34.2,-145 306.6,-145 306.6,-8 34.2,-8"/>
+<text text-anchor="start" x="42.2" y="-127.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Granger</text>
+</g>
+<g id="clust25" class="cluster">
+<title>cluster_family_4</title>
+</g>
+<!-- union_0_0 -->
+<g id="node1" class="node">
+<title>union_0_0</title>
+<ellipse fill="#ccdf32" stroke="#cccccc" cx="538.2" cy="-846" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_0_0 -->
+<g id="node4" class="node">
+<title>siblings_0_0</title>
+<polygon fill="#ccdf32" stroke="#cccccc" stroke-width="0" points="578,-846.72 570.8,-846.72 570.8,-845.28 578,-845.28 578,-846.72"/>
+</g>
+<!-- union_0_0&#45;&gt;siblings_0_0 -->
+<g id="edge3" class="edge">
+<title>union_0_0-&gt;siblings_0_0</title>
+<path fill="none" stroke="#ccdf32" d="M542.07,-846C549.22,-846 564.37,-846 571.08,-846"/>
+</g>
+<!-- Harry -->
+<g id="node2" class="node">
+<title>Harry</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-864 325.6,-864 325.6,-828 505.6,-828 505.6,-864"/>
+<text text-anchor="middle" x="415.6" y="-841.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Harry</text>
+</g>
+<!-- Harry&#45;&gt;union_0_0 -->
+<g id="edge1" class="edge">
+<title>Harry-&gt;union_0_0</title>
+<path fill="none" stroke="#ccdf32" d="M505.99,-846C518.62,-846 529.11,-846 534.43,-846"/>
+</g>
+<!-- Ginny -->
+<g id="node3" class="node">
+<title>Ginny</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-810 325.6,-810 325.6,-774 505.6,-774 505.6,-810"/>
+<text text-anchor="middle" x="415.6" y="-787.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Ginny</text>
+</g>
+<!-- Ginny&#45;&gt;union_0_0 -->
+<g id="edge2" class="edge">
+<title>Ginny-&gt;union_0_0</title>
+<path fill="none" stroke="#ccdf32" d="M506.05,-798C523.77,-798 537,-798 537,-798 537,-798 537,-830.92 537,-842.23"/>
+</g>
+<!-- James II -->
+<g id="node5" class="node">
+<title>James II</title>
+<polygon fill="white" stroke="#cccccc" points="787,-918 607,-918 607,-882 787,-882 787,-918"/>
+<text text-anchor="middle" x="697" y="-895.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">James II</text>
+</g>
+<!-- siblings_0_0&#45;&gt;James II -->
+<g id="edge4" class="edge">
+<title>siblings_0_0-&gt;James II</title>
+<path fill="none" stroke="#ccdf32" d="M574.4,-846.61C574.4,-852.54 574.4,-900 574.4,-900 574.4,-900 596.61,-900 596.61,-900"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="604.61,-890 604.61,-910 600.61,-910 600.61,-890 604.61,-890"/>
+<polyline fill="none" stroke="#ccdf32" points="606.61,-900 596.61,-900"/>
+</g>
+<!-- Lily II -->
+<g id="node6" class="node">
+<title>Lily II</title>
+<polygon fill="white" stroke="#cccccc" points="787,-810 607,-810 607,-774 787,-774 787,-810"/>
+<text text-anchor="middle" x="697" y="-787.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Lily II</text>
+</g>
+<!-- siblings_0_0&#45;&gt;Lily II -->
+<g id="edge5" class="edge">
+<title>siblings_0_0-&gt;Lily II</title>
+<path fill="none" stroke="#ccdf32" d="M573.2,-845.33C573.2,-838.73 573.2,-786 573.2,-786 573.2,-786 596.7,-786 596.7,-786"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="604.7,-776 604.7,-796 600.7,-796 600.7,-776 604.7,-776"/>
+<polyline fill="none" stroke="#ccdf32" points="606.7,-786 596.7,-786"/>
+</g>
+<!-- Albus -->
+<g id="node7" class="node">
+<title>Albus</title>
+<polygon fill="white" stroke="#cccccc" points="787,-864 607,-864 607,-828 787,-828 787,-864"/>
+<text text-anchor="middle" x="697" y="-841.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Albus</text>
+</g>
+<!-- siblings_0_0&#45;&gt;Albus -->
+<g id="edge6" class="edge">
+<title>siblings_0_0-&gt;Albus</title>
+<path fill="none" stroke="#ccdf32" d="M577.94,-846C577.94,-846 596.74,-846 596.74,-846"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="604.74,-836 604.74,-856 600.74,-856 600.74,-836 604.74,-836"/>
+<polyline fill="none" stroke="#ccdf32" points="606.74,-846 596.74,-846"/>
+</g>
+<!-- union_0 -->
+<g id="node8" class="node">
+<title>union_0</title>
+<ellipse fill="#d25252" stroke="#cccccc" cx="256.8" cy="-846" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_0 -->
+<g id="node11" class="node">
+<title>siblings_0</title>
+<polygon fill="#d25252" stroke="#cccccc" stroke-width="0" points="296.6,-846.72 289.4,-846.72 289.4,-845.28 296.6,-845.28 296.6,-846.72"/>
+</g>
+<!-- union_0&#45;&gt;siblings_0 -->
+<g id="edge9" class="edge">
+<title>union_0-&gt;siblings_0</title>
+<path fill="none" stroke="#d25252" d="M260.67,-846C267.82,-846 282.97,-846 289.68,-846"/>
+</g>
+<!-- James -->
+<g id="node9" class="node">
+<title>James</title>
+<g id="a_node9"><a xlink:href="http://harrypotter.wikia.com/wiki/James_Potter_I" xlink:title="undefined James Potter I&#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-816.4 44.2,-816.4 44.2,-773.6 224.2,-773.6 224.2,-816.4"/>
+<text text-anchor="start" x="117.09" y="-797.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">James</text>
+<text text-anchor="start" x="105.87" y="-782.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">James Potter I</text>
+</a>
+</g>
+</g>
+<!-- James&#45;&gt;union_0 -->
+<g id="edge7" class="edge">
+<title>James-&gt;union_0</title>
+<path fill="none" stroke="#d25252" d="M224.59,-798C242.96,-798 256.8,-798 256.8,-798 256.8,-798 256.8,-830.3 256.8,-841.91"/>
+</g>
+<!-- Lily -->
+<g id="node10" class="node">
+<title>Lily</title>
+<g id="a_node10"><a xlink:href="http://harrypotter.wikia.com/wiki/Lily_J._Potter" xlink:title="undefined Lily Evans&#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-877.4 44.2,-877.4 44.2,-834.6 224.2,-834.6 224.2,-877.4"/>
+<text text-anchor="start" x="122.53" y="-858.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Lily</text>
+<text text-anchor="start" x="112.4" y="-843.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Lily Evans</text>
+</a>
+</g>
+</g>
+<!-- Lily&#45;&gt;union_0 -->
+<g id="edge8" class="edge">
+<title>Lily-&gt;union_0</title>
+<path fill="none" stroke="#d25252" d="M224.59,-846C237.22,-846 247.71,-846 253.03,-846"/>
+</g>
+<!-- siblings_0&#45;&gt;Harry -->
+<g id="edge10" class="edge">
+<title>siblings_0-&gt;Harry</title>
+<path fill="none" stroke="#d25252" d="M296.54,-846C296.54,-846 315.34,-846 315.34,-846"/>
+<polygon fill="#d25252" stroke="#d25252" points="323.34,-836 323.34,-856 319.34,-856 319.34,-836 323.34,-836"/>
+<polyline fill="none" stroke="#d25252" points="325.34,-846 315.34,-846"/>
+</g>
+<!-- union_1 -->
+<g id="node12" class="node">
+<title>union_1</title>
+<ellipse fill="#629755" stroke="#cccccc" cx="256.8" cy="-701" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_1 -->
+<g id="node15" class="node">
+<title>siblings_1</title>
+<polygon fill="#629755" stroke="#cccccc" stroke-width="0" points="296.6,-701.72 289.4,-701.72 289.4,-700.28 296.6,-700.28 296.6,-701.72"/>
+</g>
+<!-- union_1&#45;&gt;siblings_1 -->
+<g id="edge13" class="edge">
+<title>union_1-&gt;siblings_1</title>
+<path fill="none" stroke="#629755" d="M260.67,-701C267.82,-701 282.97,-701 289.68,-701"/>
+</g>
+<!-- Vernon -->
+<g id="node13" class="node">
+<title>Vernon</title>
+<g id="a_node13"><a xlink:title="undefined &#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-665 44.2,-665 44.2,-629 224.2,-629 224.2,-665"/>
+<text text-anchor="middle" x="134.2" y="-642.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Vernon</text>
+</a>
+</g>
+</g>
+<!-- Vernon&#45;&gt;union_1 -->
+<g id="edge11" class="edge">
+<title>Vernon-&gt;union_1</title>
+<path fill="none" stroke="#629755" d="M224.65,-647C242.37,-647 255.6,-647 255.6,-647 255.6,-647 255.6,-684.73 255.6,-697.12"/>
+</g>
+<!-- Petunia -->
+<g id="node14" class="node">
+<title>Petunia</title>
+<g id="a_node14"><a xlink:title="undefined &#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-719 44.2,-719 44.2,-683 224.2,-683 224.2,-719"/>
+<text text-anchor="middle" x="134.2" y="-696.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Petunia</text>
+</a>
+</g>
+</g>
+<!-- Petunia&#45;&gt;union_1 -->
+<g id="edge12" class="edge">
+<title>Petunia-&gt;union_1</title>
+<path fill="none" stroke="#629755" d="M224.59,-701C237.22,-701 247.71,-701 253.03,-701"/>
+</g>
+<!-- siblings_1&#45;&gt;Harry -->
+<g id="edge15" class="edge">
+<title>siblings_1-&gt;Harry</title>
+<path fill="none" stroke="#629755" stroke-dasharray="5,2" d="M293,-701.39C293,-709.46 293,-838.5 293,-838.5 293,-838.5 315.21,-838.5 315.21,-838.5"/>
+<polygon fill="#629755" stroke="#629755" points="323.21,-828.5 323.21,-848.5 319.21,-848.5 319.21,-828.5 323.21,-828.5"/>
+<polyline fill="none" stroke="#629755" points="325.21,-838.5 315.21,-838.5"/>
+</g>
+<!-- Dudley -->
+<g id="node16" class="node">
+<title>Dudley</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-719 325.6,-719 325.6,-683 505.6,-683 505.6,-719"/>
+<text text-anchor="middle" x="415.6" y="-696.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Dudley</text>
+</g>
+<!-- siblings_1&#45;&gt;Dudley -->
+<g id="edge14" class="edge">
+<title>siblings_1-&gt;Dudley</title>
+<path fill="none" stroke="#629755" d="M296.54,-701C296.54,-701 315.34,-701 315.34,-701"/>
+<polygon fill="#629755" stroke="#629755" points="323.34,-691 323.34,-711 319.34,-711 319.34,-691 323.34,-691"/>
+<polyline fill="none" stroke="#629755" points="325.34,-701 315.34,-701"/>
+</g>
+<!-- union_2_0 -->
+<g id="node17" class="node">
+<title>union_2_0</title>
+<ellipse fill="#6897bb" stroke="#cccccc" cx="538.2" cy="-348" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_2_0 -->
+<g id="node20" class="node">
+<title>siblings_2_0</title>
+<polygon fill="#6897bb" stroke="#cccccc" stroke-width="0" points="578,-348.72 570.8,-348.72 570.8,-347.28 578,-347.28 578,-348.72"/>
+</g>
+<!-- union_2_0&#45;&gt;siblings_2_0 -->
+<g id="edge18" class="edge">
+<title>union_2_0-&gt;siblings_2_0</title>
+<path fill="none" stroke="#6897bb" d="M542.07,-348C549.22,-348 564.37,-348 571.08,-348"/>
+</g>
+<!-- Bill -->
+<g id="node18" class="node">
+<title>Bill</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-352 325.6,-352 325.6,-316 505.6,-316 505.6,-352"/>
+<text text-anchor="middle" x="415.6" y="-329.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Bill</text>
+</g>
+<!-- Bill&#45;&gt;union_2_0 -->
+<g id="edge16" class="edge">
+<title>Bill-&gt;union_2_0</title>
+<path fill="none" stroke="#6897bb" d="M505.99,-348C518.62,-348 529.11,-348 534.43,-348"/>
+</g>
+<!-- Fleur -->
+<g id="node19" class="node">
+<title>Fleur</title>
+<g id="a_node19"><a xlink:href="http://harrypotter.wikia.com/wiki/Fleur_Delacour" xlink:title="undefined Fleur Delacour&#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="505.6,-412.4 325.6,-412.4 325.6,-369.6 505.6,-369.6 505.6,-412.4"/>
+<text text-anchor="start" x="400.82" y="-393.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Fleur</text>
+<text text-anchor="start" x="385.47" y="-378.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Fleur Delacour</text>
+</a>
+</g>
+</g>
+<!-- Fleur&#45;&gt;union_2_0 -->
+<g id="edge17" class="edge">
+<title>Fleur-&gt;union_2_0</title>
+<path fill="none" stroke="#6897bb" d="M506.05,-376.8C523.77,-376.8 537,-376.8 537,-376.8 537,-376.8 537,-359.22 537,-351.53"/>
+</g>
+<!-- Victoire -->
+<g id="node21" class="node">
+<title>Victoire</title>
+<polygon fill="white" stroke="#cccccc" points="787,-420 607,-420 607,-384 787,-384 787,-420"/>
+<text text-anchor="middle" x="697" y="-397.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Victoire</text>
+</g>
+<!-- siblings_2_0&#45;&gt;Victoire -->
+<g id="edge19" class="edge">
+<title>siblings_2_0-&gt;Victoire</title>
+<path fill="none" stroke="#6897bb" d="M575.6,-348.56C575.6,-354.08 575.6,-398.2 575.6,-398.2 575.6,-398.2 596.55,-398.2 596.55,-398.2"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="604.55,-388.2 604.55,-408.2 600.55,-408.2 600.55,-388.2 604.55,-388.2"/>
+<polyline fill="none" stroke="#6897bb" points="606.55,-398.2 596.55,-398.2"/>
+</g>
+<!-- Dominique -->
+<g id="node22" class="node">
+<title>Dominique</title>
+<polygon fill="white" stroke="#cccccc" points="787,-312 607,-312 607,-276 787,-276 787,-312"/>
+<text text-anchor="middle" x="697" y="-289.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Dominique</text>
+</g>
+<!-- siblings_2_0&#45;&gt;Dominique -->
+<g id="edge20" class="edge">
+<title>siblings_2_0-&gt;Dominique</title>
+<path fill="none" stroke="#6897bb" d="M573.2,-347.39C573.2,-341.46 573.2,-294 573.2,-294 573.2,-294 596.7,-294 596.7,-294"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="604.7,-284 604.7,-304 600.7,-304 600.7,-284 604.7,-284"/>
+<polyline fill="none" stroke="#6897bb" points="606.7,-294 596.7,-294"/>
+</g>
+<!-- Louis -->
+<g id="node23" class="node">
+<title>Louis</title>
+<polygon fill="white" stroke="#cccccc" points="787,-366 607,-366 607,-330 787,-330 787,-366"/>
+<text text-anchor="middle" x="697" y="-343.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Louis</text>
+</g>
+<!-- siblings_2_0&#45;&gt;Louis -->
+<g id="edge21" class="edge">
+<title>siblings_2_0-&gt;Louis</title>
+<path fill="none" stroke="#6897bb" d="M577.94,-348C577.94,-348 596.74,-348 596.74,-348"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="604.74,-338 604.74,-358 600.74,-358 600.74,-338 604.74,-338"/>
+<polyline fill="none" stroke="#6897bb" points="606.74,-348 596.74,-348"/>
+</g>
+<!-- union_2_1 -->
+<g id="node24" class="node">
+<title>union_2_1</title>
+<ellipse fill="#bbb529" stroke="#cccccc" cx="538.2" cy="-475" rx="3.6" ry="3.6"/>
+</g>
+<!-- George -->
+<g id="node25" class="node">
+<title>George</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-466 325.6,-466 325.6,-430 505.6,-430 505.6,-466"/>
+<text text-anchor="middle" x="415.6" y="-443.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">George</text>
+</g>
+<!-- George&#45;&gt;union_2_1 -->
+<g id="edge22" class="edge">
+<title>George-&gt;union_2_1</title>
+<path fill="none" stroke="#bbb529" d="M505.9,-448C524.94,-448 539.4,-448 539.4,-448 539.4,-448 539.4,-463.83 539.4,-471.25"/>
+</g>
+<!-- Angelina -->
+<g id="node26" class="node">
+<title>Angelina</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-520 325.6,-520 325.6,-484 505.6,-484 505.6,-520"/>
+<text text-anchor="middle" x="415.6" y="-497.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Angelina</text>
+</g>
+<!-- Angelina&#45;&gt;union_2_1 -->
+<g id="edge23" class="edge">
+<title>Angelina-&gt;union_2_1</title>
+<path fill="none" stroke="#bbb529" d="M505.9,-502C524.94,-502 539.4,-502 539.4,-502 539.4,-502 539.4,-486.17 539.4,-478.75"/>
+</g>
+<!-- union_2_2 -->
+<g id="node27" class="node">
+<title>union_2_2</title>
+<ellipse fill="#9876aa" stroke="#cccccc" cx="538.2" cy="-185" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_2_2 -->
+<g id="node30" class="node">
+<title>siblings_2_2</title>
+<polygon fill="#9876aa" stroke="#cccccc" stroke-width="0" points="578,-185.72 570.8,-185.72 570.8,-184.28 578,-184.28 578,-185.72"/>
+</g>
+<!-- union_2_2&#45;&gt;siblings_2_2 -->
+<g id="edge26" class="edge">
+<title>union_2_2-&gt;siblings_2_2</title>
+<path fill="none" stroke="#9876aa" d="M542.07,-185C549.22,-185 564.37,-185 571.08,-185"/>
+</g>
+<!-- Ron -->
+<g id="node28" class="node">
+<title>Ron</title>
+<g id="a_node28"><a xlink:href="http://harrypotter.wikia.com/wiki/Ronald_Weasley" xlink:title="undefined Ron Weasley&#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="505.6,-266.4 325.6,-266.4 325.6,-223.6 505.6,-223.6 505.6,-266.4"/>
+<text text-anchor="start" x="403.93" y="-247.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Ron</text>
+<text text-anchor="start" x="388.8" y="-232.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Ron Weasley</text>
+</a>
+</g>
+</g>
+<!-- Ron&#45;&gt;union_2_2 -->
+<g id="edge24" class="edge">
+<title>Ron-&gt;union_2_2</title>
+<path fill="none" stroke="#9876aa" d="M505.99,-234.4C524.36,-234.4 538.2,-234.4 538.2,-234.4 538.2,-234.4 538.2,-200.52 538.2,-188.88"/>
+</g>
+<!-- Hermione -->
+<g id="node29" class="node">
+<title>Hermione</title>
+<g id="a_node29"><a xlink:href="http://harrypotter.wikia.com/wiki/Hermione_Granger" xlink:title="undefined Hermione Granger&#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="505.6,-205.4 325.6,-205.4 325.6,-162.6 505.6,-162.6 505.6,-205.4"/>
+<text text-anchor="start" x="387.61" y="-186.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Hermione</text>
+<text text-anchor="start" x="377.98" y="-171.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Hermione Granger</text>
+</a>
+</g>
+</g>
+<!-- Hermione&#45;&gt;union_2_2 -->
+<g id="edge25" class="edge">
+<title>Hermione-&gt;union_2_2</title>
+<path fill="none" stroke="#9876aa" d="M505.99,-185C518.62,-185 529.11,-185 534.43,-185"/>
+</g>
+<!-- Rose -->
+<g id="node31" class="node">
+<title>Rose</title>
+<polygon fill="white" stroke="#cccccc" points="787,-202 607,-202 607,-166 787,-166 787,-202"/>
+<text text-anchor="middle" x="697" y="-179.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Rose</text>
+</g>
+<!-- siblings_2_2&#45;&gt;Rose -->
+<g id="edge27" class="edge">
+<title>siblings_2_2-&gt;Rose</title>
+<path fill="none" stroke="#9876aa" d="M577.94,-185C577.94,-185 596.74,-185 596.74,-185"/>
+<polygon fill="#9876aa" stroke="#9876aa" points="604.74,-175 604.74,-195 600.74,-195 600.74,-175 604.74,-175"/>
+<polyline fill="none" stroke="#9876aa" points="606.74,-185 596.74,-185"/>
+</g>
+<!-- Hugo -->
+<g id="node32" class="node">
+<title>Hugo</title>
+<polygon fill="white" stroke="#cccccc" points="787,-256 607,-256 607,-220 787,-220 787,-256"/>
+<text text-anchor="middle" x="697" y="-233.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Hugo</text>
+</g>
+<!-- siblings_2_2&#45;&gt;Hugo -->
+<g id="edge28" class="edge">
+<title>siblings_2_2-&gt;Hugo</title>
+<path fill="none" stroke="#9876aa" d="M575.6,-185.68C575.6,-192.29 575.6,-245.2 575.6,-245.2 575.6,-245.2 596.55,-245.2 596.55,-245.2"/>
+<polygon fill="#9876aa" stroke="#9876aa" points="604.55,-235.2 604.55,-255.2 600.55,-255.2 600.55,-235.2 604.55,-235.2"/>
+<polyline fill="none" stroke="#9876aa" points="606.55,-245.2 596.55,-245.2"/>
+</g>
+<!-- union_2 -->
+<g id="node33" class="node">
+<title>union_2</title>
+<ellipse fill="#cc7832" stroke="#cccccc" cx="256.8" cy="-448" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_2 -->
+<g id="node36" class="node">
+<title>siblings_2</title>
+<polygon fill="#cc7832" stroke="#cccccc" stroke-width="0" points="296.6,-448.72 289.4,-448.72 289.4,-447.28 296.6,-447.28 296.6,-448.72"/>
+</g>
+<!-- union_2&#45;&gt;siblings_2 -->
+<g id="edge31" class="edge">
+<title>union_2-&gt;siblings_2</title>
+<path fill="none" stroke="#cc7832" d="M260.67,-448C267.82,-448 282.97,-448 289.68,-448"/>
+</g>
+<!-- Arthur -->
+<g id="node34" class="node">
+<title>Arthur</title>
+<polygon fill="white" stroke="#cccccc" points="224.2,-439 44.2,-439 44.2,-403 224.2,-403 224.2,-439"/>
+<text text-anchor="middle" x="134.2" y="-416.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Arthur</text>
+</g>
+<!-- Arthur&#45;&gt;union_2 -->
+<g id="edge29" class="edge">
+<title>Arthur-&gt;union_2</title>
+<path fill="none" stroke="#cc7832" d="M224.59,-434.5C242.96,-434.5 256.8,-434.5 256.8,-434.5 256.8,-434.5 256.8,-440.04 256.8,-444.02"/>
+</g>
+<!-- Molly -->
+<g id="node35" class="node">
+<title>Molly</title>
+<polygon fill="white" stroke="#cccccc" points="224.2,-493 44.2,-493 44.2,-457 224.2,-457 224.2,-493"/>
+<text text-anchor="middle" x="134.2" y="-470.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Molly</text>
+</g>
+<!-- Molly&#45;&gt;union_2 -->
+<g id="edge30" class="edge">
+<title>Molly-&gt;union_2</title>
+<path fill="none" stroke="#cc7832" d="M224.5,-461.5C243.54,-461.5 258,-461.5 258,-461.5 258,-461.5 258,-455.69 258,-451.69"/>
+</g>
+<!-- siblings_2&#45;&gt;Ginny -->
+<g id="edge32" class="edge">
+<title>siblings_2-&gt;Ginny</title>
+<path fill="none" stroke="#cc7832" d="M294.2,-448.52C294.2,-455.42 294.2,-529 294.2,-529 294.2,-529 311.1,-529 311.1,-529 311.1,-529 311.1,-786 311.1,-786 311.1,-786 315.19,-786 315.19,-786"/>
+<polygon fill="#cc7832" stroke="#cc7832" points="323.19,-776 323.19,-796 319.19,-796 319.19,-776 323.19,-776"/>
+<polyline fill="none" stroke="#cc7832" points="325.19,-786 315.19,-786"/>
+</g>
+<!-- siblings_2&#45;&gt;Bill -->
+<g id="edge33" class="edge">
+<title>siblings_2-&gt;Bill</title>
+<path fill="none" stroke="#cc7832" d="M293,-447.67C293,-440.99 293,-334 293,-334 293,-334 315.21,-334 315.21,-334"/>
+<polygon fill="#cc7832" stroke="#cc7832" points="323.21,-324 323.21,-344 319.21,-344 319.21,-324 323.21,-324"/>
+<polyline fill="none" stroke="#cc7832" points="325.21,-334 315.21,-334"/>
+</g>
+<!-- siblings_2&#45;&gt;George -->
+<g id="edge34" class="edge">
+<title>siblings_2-&gt;George</title>
+<path fill="none" stroke="#cc7832" d="M296.54,-448C296.54,-448 315.34,-448 315.34,-448"/>
+<polygon fill="#cc7832" stroke="#cc7832" points="323.34,-438 323.34,-458 319.34,-458 319.34,-438 323.34,-438"/>
+<polyline fill="none" stroke="#cc7832" points="325.34,-448 315.34,-448"/>
+</g>
+<!-- siblings_2&#45;&gt;Ron -->
+<g id="edge35" class="edge">
+<title>siblings_2-&gt;Ron</title>
+<path fill="none" stroke="#cc7832" d="M291.2,-447.42C291.2,-435.51 291.2,-245 291.2,-245 291.2,-245 315.19,-245 315.19,-245"/>
+<polygon fill="#cc7832" stroke="#cc7832" points="323.19,-235 323.19,-255 319.19,-255 319.19,-235 323.19,-235"/>
+<polyline fill="none" stroke="#cc7832" points="325.19,-245 315.19,-245"/>
+</g>
+<!-- Fred -->
+<g id="node37" class="node">
+<title>Fred</title>
+<polygon fill="white" stroke="#cccccc" points="505.6,-574 325.6,-574 325.6,-538 505.6,-538 505.6,-574"/>
+<text text-anchor="middle" x="415.6" y="-551.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Fred</text>
+</g>
+<!-- siblings_2&#45;&gt;Fred -->
+<g id="edge36" class="edge">
+<title>siblings_2-&gt;Fred</title>
+<path fill="none" stroke="#cc7832" d="M291.8,-448.69C291.8,-457.89 291.8,-556 291.8,-556 291.8,-556 315.3,-556 315.3,-556"/>
+<polygon fill="#cc7832" stroke="#cc7832" points="323.3,-546 323.3,-566 319.3,-566 319.3,-546 323.3,-546"/>
+<polyline fill="none" stroke="#cc7832" points="325.3,-556 315.3,-556"/>
+</g>
+<!-- union_3 -->
+<g id="node38" class="node">
+<title>union_3</title>
+<ellipse fill="#efc090" stroke="#cccccc" cx="256.8" cy="-90" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_3 -->
+<g id="node41" class="node">
+<title>siblings_3</title>
+<polygon fill="#efc090" stroke="#cccccc" stroke-width="0" points="296.6,-90.72 289.4,-90.72 289.4,-89.28 296.6,-89.28 296.6,-90.72"/>
+</g>
+<!-- union_3&#45;&gt;siblings_3 -->
+<g id="edge39" class="edge">
+<title>union_3-&gt;siblings_3</title>
+<path fill="none" stroke="#efc090" d="M260.67,-90C267.82,-90 282.97,-90 289.68,-90"/>
+</g>
+<!-- Mr Granger -->
+<g id="node39" class="node">
+<title>Mr Granger</title>
+<g id="a_node39"><a xlink:title="undefined &#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-54 44.2,-54 44.2,-18 224.2,-18 224.2,-54"/>
+<text text-anchor="middle" x="134.2" y="-31.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Mr Granger</text>
+</a>
+</g>
+</g>
+<!-- Mr Granger&#45;&gt;union_3 -->
+<g id="edge37" class="edge">
+<title>Mr Granger-&gt;union_3</title>
+<path fill="none" stroke="#efc090" d="M224.59,-36C242.96,-36 256.8,-36 256.8,-36 256.8,-36 256.8,-73.73 256.8,-86.12"/>
+</g>
+<!-- Mrs Granger -->
+<g id="node40" class="node">
+<title>Mrs Granger</title>
+<g id="a_node40"><a xlink:title="undefined &#xA;&#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="224.2,-108 44.2,-108 44.2,-72 224.2,-72 224.2,-108"/>
+<text text-anchor="middle" x="134.2" y="-85.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Mrs Granger</text>
+</a>
+</g>
+</g>
+<!-- Mrs Granger&#45;&gt;union_3 -->
+<g id="edge38" class="edge">
+<title>Mrs Granger-&gt;union_3</title>
+<path fill="none" stroke="#efc090" d="M224.59,-90C237.22,-90 247.71,-90 253.03,-90"/>
+</g>
+<!-- siblings_3&#45;&gt;Hermione -->
+<g id="edge40" class="edge">
+<title>siblings_3-&gt;Hermione</title>
+<path fill="none" stroke="#efc090" d="M294.8,-90.6C294.8,-98.61 294.8,-184 294.8,-184 294.8,-184 315.28,-184 315.28,-184"/>
+<polygon fill="#efc090" stroke="#efc090" points="323.28,-174 323.28,-194 319.28,-194 319.28,-174 323.28,-174"/>
+<polyline fill="none" stroke="#efc090" points="325.28,-184 315.28,-184"/>
+</g>
+<!-- siblings_4 -->
+<g id="node42" class="node">
+<title>siblings_4</title>
+<polygon fill="#d25252" stroke="#cccccc" stroke-width="0" points="15.2,-778.72 8,-778.72 8,-777.28 15.2,-777.28 15.2,-778.72"/>
+</g>
+<!-- siblings_4&#45;&gt;Lily -->
+<g id="edge41" class="edge">
+<title>siblings_4-&gt;Lily</title>
+<path fill="none" stroke="#d25252" d="M11.6,-778.5C11.6,-785.14 11.6,-856 11.6,-856 11.6,-856 33.81,-856 33.81,-856"/>
+<polygon fill="#d25252" stroke="#d25252" points="41.81,-846 41.81,-866 37.81,-866 37.81,-846 41.81,-846"/>
+<polyline fill="none" stroke="#d25252" points="43.81,-856 33.81,-856"/>
+</g>
+<!-- siblings_4&#45;&gt;Petunia -->
+<g id="edge42" class="edge">
+<title>siblings_4-&gt;Petunia</title>
+<path fill="none" stroke="#d25252" d="M11.6,-777.51C11.6,-770.95 11.6,-701 11.6,-701 11.6,-701 33.81,-701 33.81,-701"/>
+<polygon fill="#d25252" stroke="#d25252" points="41.81,-691 41.81,-711 37.81,-711 37.81,-691 41.81,-691"/>
+<polyline fill="none" stroke="#d25252" points="43.81,-701 33.81,-701"/>
+</g>
+</g>
+</svg>

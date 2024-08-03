@@ -1,0 +1,179 @@
+<svg width="505pt" height="413pt" viewBox="0.00 0.00 505.40 413.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 409)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-409 501.4,-409 501.4,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_family_0</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="8,-153 8,-397 489.4,-397 489.4,-153 8,-153"/>
+<text text-anchor="start" x="16" y="-379.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">House A</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_family_1</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="8,-8 8,-145 489.4,-145 489.4,-8 8,-8"/>
+<text text-anchor="start" x="16" y="-127.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">House B</text>
+</g>
+<!-- union_0 -->
+<g id="node1" class="node">
+<title>union_0</title>
+<ellipse fill="#d25252" stroke="#cccccc" cx="230.6" cy="-270" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_0 -->
+<g id="node5" class="node">
+<title>siblings_0</title>
+<polygon fill="#d25252" stroke="#cccccc" stroke-width="0" points="270.4,-270.72 263.2,-270.72 263.2,-269.28 270.4,-269.28 270.4,-270.72"/>
+</g>
+<!-- union_0&#45;&gt;siblings_0 -->
+<g id="edge5" class="edge">
+<title>union_0-&gt;siblings_0</title>
+<path fill="none" stroke="#d25252" d="M234.47,-270C241.62,-270 256.77,-270 263.48,-270"/>
+</g>
+<!-- Parent 1 -->
+<g id="node2" class="node">
+<title>Parent 1</title>
+<g id="a_node2"><a xlink:title="Parent 1 Name Parent 1 Full Name&#xA;Born 1904  -- died 1999&#xA;&#xA;">
+<polygon fill="#f4f4f4" stroke="#cccccc" stroke-width="0" points="198,-282.4 18,-282.4 18,-223.6 198,-223.6 198,-282.4"/>
+<text text-anchor="start" x="59.4" y="-261.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Parent 1 Name ♂</text>
+<text text-anchor="start" x="68.98" y="-246.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Parent 1 Full Name</text>
+<text text-anchor="start" x="65.92" y="-232.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">*1904 — †1999 (95)</text>
+</a>
+</g>
+</g>
+<!-- Parent 1&#45;&gt;union_0 -->
+<g id="edge1" class="edge">
+<title>Parent 1-&gt;union_0</title>
+<path fill="none" stroke="#d25252" d="M197.75,-270C210.6,-270 221.31,-270 226.75,-270"/>
+</g>
+<!-- Parent 2 -->
+<g id="node3" class="node">
+<title>Parent 2</title>
+<g id="a_node3"><a xlink:title="Parent 2 Name Parent 2 Full Name&#xA;Born 1909 &#xA;&#xA;">
+<polygon fill="white" stroke="#cccccc" points="198,-359.4 18,-359.4 18,-300.6 198,-300.6 198,-359.4"/>
+<text text-anchor="start" x="59.4" y="-338.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Parent 2 Name ♀</text>
+<text text-anchor="start" x="68.98" y="-323.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">Parent 2 Full Name</text>
+<text text-anchor="start" x="95.5" y="-309.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">*1909</text>
+</a>
+</g>
+</g>
+<!-- Parent 2&#45;&gt;union_0 -->
+<g id="edge2" class="edge">
+<title>Parent 2-&gt;union_0</title>
+<path fill="none" stroke="#d25252" d="M198.3,-324C217.34,-324 231.8,-324 231.8,-324 231.8,-324 231.8,-286.27 231.8,-273.88"/>
+</g>
+<!-- Parent 2&#45;&gt;union_0 -->
+<g id="edge3" class="edge">
+<title>Parent 2-&gt;union_0</title>
+<path fill="none" stroke="#d25252" stroke-dasharray="5,2" d="M198.45,-315C216.17,-315 229.4,-315 229.4,-315 229.4,-315 229.4,-284.72 229.4,-273.84"/>
+</g>
+<!-- Parent 4 -->
+<g id="node4" class="node">
+<title>Parent 4</title>
+<g id="a_node4"><a xlink:title="undefined &#xA; Died 1955&#xA;&#xA;">
+<polygon fill="#f4f4f4" stroke="#cccccc" stroke-width="0" points="198,-205.4 18,-205.4 18,-162.6 198,-162.6 198,-205.4"/>
+<text text-anchor="start" x="84.87" y="-186.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Parent 4</text>
+<text text-anchor="start" x="94.25" y="-171.6" font-family="Helvetica, Arial, sans-serif" font-size="10.00" fill="#aaaaaa">†1955</text>
+</a>
+</g>
+</g>
+<!-- Parent 4&#45;&gt;union_0 -->
+<g id="edge4" class="edge">
+<title>Parent 4-&gt;union_0</title>
+<path fill="none" stroke="#d25252" stroke-dasharray="5,2" d="M197.97,-201.7C217.17,-201.7 231.8,-201.7 231.8,-201.7 231.8,-201.7 231.8,-252.14 231.8,-266.33"/>
+</g>
+<!-- union_1 -->
+<g id="node9" class="node">
+<title>union_1</title>
+<ellipse fill="#ccdf32" stroke="#cccccc" cx="230.6" cy="-90" rx="3.6" ry="3.6"/>
+</g>
+<!-- Parent 4&#45;&gt;union_1 -->
+<g id="edge9" class="edge">
+<title>Parent 4-&gt;union_1</title>
+<path fill="none" stroke="#ccdf32" d="M197.82,-180.3C215.86,-180.3 229.4,-180.3 229.4,-180.3 229.4,-180.3 229.4,-111.16 229.4,-93.88"/>
+</g>
+<!-- Child 1 -->
+<g id="node6" class="node">
+<title>Child 1</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-234 299.4,-234 299.4,-198 479.4,-198 479.4,-234"/>
+<text text-anchor="middle" x="389.4" y="-211.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Child 1</text>
+</g>
+<!-- siblings_0&#45;&gt;Child 1 -->
+<g id="edge6" class="edge">
+<title>siblings_0-&gt;Child 1</title>
+<path fill="none" stroke="#d25252" d="M266.8,-269.28C266.8,-263.81 266.8,-228.8 266.8,-228.8 266.8,-228.8 289.01,-228.8 289.01,-228.8"/>
+<polygon fill="#d25252" stroke="#d25252" points="297.01,-218.8 297.01,-238.8 293.01,-238.8 293.01,-218.8 297.01,-218.8"/>
+<polyline fill="none" stroke="#d25252" points="299.01,-228.8 289.01,-228.8"/>
+</g>
+<!-- Child 2 -->
+<g id="node7" class="node">
+<title>Child 2</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-288 299.4,-288 299.4,-252 479.4,-252 479.4,-288"/>
+<text text-anchor="middle" x="389.4" y="-265.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Child 2</text>
+</g>
+<!-- siblings_0&#45;&gt;Child 2 -->
+<g id="edge7" class="edge">
+<title>siblings_0-&gt;Child 2</title>
+<path fill="none" stroke="#d25252" d="M270.34,-270C270.34,-270 289.14,-270 289.14,-270"/>
+<polygon fill="#d25252" stroke="#d25252" points="297.14,-260 297.14,-280 293.14,-280 293.14,-260 297.14,-260"/>
+<polyline fill="none" stroke="#d25252" points="299.14,-270 289.14,-270"/>
+</g>
+<!-- Child 3 -->
+<g id="node8" class="node">
+<title>Child 3</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-342 299.4,-342 299.4,-306 479.4,-306 479.4,-342"/>
+<text text-anchor="middle" x="389.4" y="-319.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Child 3</text>
+</g>
+<!-- siblings_0&#45;&gt;Child 3 -->
+<g id="edge8" class="edge">
+<title>siblings_0-&gt;Child 3</title>
+<path fill="none" stroke="#d25252" d="M266.8,-270.71C266.8,-277.63 266.8,-333 266.8,-333 266.8,-333 289.01,-333 289.01,-333"/>
+<polygon fill="#d25252" stroke="#d25252" points="297.01,-323 297.01,-343 293.01,-343 293.01,-323 297.01,-323"/>
+<polyline fill="none" stroke="#d25252" points="299.01,-333 289.01,-333"/>
+</g>
+<!-- siblings_1 -->
+<g id="node11" class="node">
+<title>siblings_1</title>
+<polygon fill="#ccdf32" stroke="#cccccc" stroke-width="0" points="270.4,-90.72 263.2,-90.72 263.2,-89.28 270.4,-89.28 270.4,-90.72"/>
+</g>
+<!-- union_1&#45;&gt;siblings_1 -->
+<g id="edge11" class="edge">
+<title>union_1-&gt;siblings_1</title>
+<path fill="none" stroke="#ccdf32" d="M234.47,-90C241.62,-90 256.77,-90 263.48,-90"/>
+</g>
+<!-- Parent 5 -->
+<g id="node10" class="node">
+<title>Parent 5</title>
+<polygon fill="white" stroke="#cccccc" points="198,-108 18,-108 18,-72 198,-72 198,-108"/>
+<text text-anchor="middle" x="108" y="-85.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Parent 5</text>
+</g>
+<!-- Parent 5&#45;&gt;union_1 -->
+<g id="edge10" class="edge">
+<title>Parent 5-&gt;union_1</title>
+<path fill="none" stroke="#ccdf32" d="M198.39,-90C211.02,-90 221.51,-90 226.83,-90"/>
+</g>
+<!-- Child 6 -->
+<g id="node12" class="node">
+<title>Child 6</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-54 299.4,-54 299.4,-18 479.4,-18 479.4,-54"/>
+<text text-anchor="middle" x="389.4" y="-31.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Child 6</text>
+</g>
+<!-- siblings_1&#45;&gt;Child 6 -->
+<g id="edge12" class="edge">
+<title>siblings_1-&gt;Child 6</title>
+<path fill="none" stroke="#ccdf32" d="M266.8,-89.39C266.8,-83.46 266.8,-36 266.8,-36 266.8,-36 289.01,-36 289.01,-36"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="297.01,-26 297.01,-46 293.01,-46 293.01,-26 297.01,-26"/>
+<polyline fill="none" stroke="#ccdf32" points="299.01,-36 289.01,-36"/>
+</g>
+<!-- Child 5 -->
+<g id="node13" class="node">
+<title>Child 5</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-108 299.4,-108 299.4,-72 479.4,-72 479.4,-108"/>
+<text text-anchor="middle" x="389.4" y="-85.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Child 5</text>
+</g>
+<!-- siblings_1&#45;&gt;Child 5 -->
+<g id="edge13" class="edge">
+<title>siblings_1-&gt;Child 5</title>
+<path fill="none" stroke="#ccdf32" stroke-dasharray="5,2" d="M270.34,-90C270.34,-90 289.14,-90 289.14,-90"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="297.14,-80 297.14,-100 293.14,-100 293.14,-80 297.14,-80"/>
+<polyline fill="none" stroke="#ccdf32" points="299.14,-90 289.14,-90"/>
+</g>
+</g>
+</svg>
