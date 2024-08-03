@@ -25,7 +25,8 @@
     "mutate": "npx stryker run",
     "start": "node ./dist/index.js -h",
     "lint": "eslint . --ext .ts",
-    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "format:check": "prettier --config .prettierrc 'src/**/*.ts' --list-different"
   },
   "devDependencies": {
     "@stryker-mutator/typescript-checker": "^8.2.6",
