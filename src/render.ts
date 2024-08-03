@@ -24,6 +24,8 @@ export default async function render(data: KinModel, options: { format: 'dot' | 
         global.XMLSerializer = window.XMLSerializer;
 
         const viz = await Promise.resolve(instance());
+        // TODO to support images, the images need to be given as an option, e.g.:
+        // images: [{ name: 'person.jpg', width: 100, height: 100 }]
         const svg = viz.renderSVGElement(dot, { format, engine: 'dot' });
 
         const serializer = new XMLSerializer();
