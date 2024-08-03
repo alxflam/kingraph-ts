@@ -115,6 +115,8 @@ function renderPerson(data: KinModel, person: Person, path: any, style: Record<s
 }
 
 function renderPersonTooltip(person: Person) {
+  // \\n is used as newline because some dotparsers don't support the regular \n
+  // nevertheless the result will be the same
   let txt = '';
   txt += person.name + ' ' || '';
   txt += person.fullname || '';
