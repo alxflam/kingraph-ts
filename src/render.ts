@@ -6,13 +6,13 @@ import { KinModel } from './type.js';
 /**
  * Renders the graph in 'dot' or 'svg' file format.
  *
- * @param String format Can be `dot` or `svg`, defaults to 'dot'.
+ * @param options specifies rendering options (theme and file format)
  *
  */
-export default async function render(data: KinModel, options: { format: 'dot' | 'svg' }): Promise<string> {
+export default async function render(data: KinModel, options: { format: 'dot' | 'svg'; theme: 'dark' | 'light' }): Promise<string> {
   const format = options.format;
 
-  const dot = renderGraph(data);
+  const dot = renderGraph(data, options.theme);
 
   switch (format) {
     case 'dot':

@@ -4,30 +4,32 @@ import applyStyle from './apply_style.js';
 import idGenerator from './id_generator.js';
 import COLORS from './defaults/colors.js';
 import { Family, KinModel, Person } from './type.js';
+import { DEFAULT_STYLES, DARK_MODE_DEVIATIONS, LIGHT_MODE_DEVIATIONS } from './defaults/styles.js';
+import { merge } from 'lodash-es';
 
 const getId = idGenerator();
 
 const LINE2 = '# ' + Array(74).join('-');
 
-export default function render(data: KinModel): string {
-  data = Object.assign({}, data);
+export default function render(data: KinModel, theme: 'dark' | 'light'): string {
+  const style = merge(DEFAULT_STYLES, theme === 'dark' ? DARK_MODE_DEVIATIONS : LIGHT_MODE_DEVIATIONS);
 
   return join(
     [
       'digraph G {',
       {
         indent: [
-          applyStyle(data, [':bgcolor']),
+          applyStyle(style, data, [':bgcolor']),
           'edge [',
-          { indent: applyStyle(data, [':edge']) },
+          { indent: applyStyle(style, data, [':edge']) },
           ']',
           '',
           'node [',
-          { indent: applyStyle(data, [':node']) },
+          { indent: applyStyle(style, data, [':node']) },
           ']',
           '',
-          applyStyle(data, [':digraph']),
-          renderHouse(data)
+          applyStyle(style, data, [':digraph']),
+          renderHouse(data, style)
         ]
       },
       '}'
@@ -36,17 +38,17 @@ export default function render(data: KinModel): string {
   );
 }
 
-function renderHouse(data: KinModel) {
+function renderHouse(data: KinModel, style: Record<string, object>) {
   const people = data.people || [];
   const families = data.families || [];
 
   return [
-    Object.entries(families).map(([id, f]) => renderFamily(data, f || {}, [id])),
-    Object.entries(people).map(([id, p]) => renderPerson(data, p || {}, [id]))
+    Object.entries(families).map(([id, f]) => renderFamily(data, f || {}, [id], style)),
+    Object.entries(people).map(([id, p]) => renderPerson(data, p || {}, [id], style))
   ];
 }
 
-function renderPerson(data: KinModel, person: Person, path: any): any[] {
+function renderPerson(data: KinModel, person: Person, path: any, style: Record<string, object>): any[] {
   const id = path[path.length - 1];
   let label;
   const href = person.links && person.links[0];
@@ -78,13 +80,11 @@ function renderPerson(data: KinModel, person: Person, path: any): any[] {
 
     let lifespan: string | undefined = undefined;
     if (person.born && person.died) {
-      lifespan = `${'*' + formatDate(toDate(person.born))} — ${
-        '†' + formatDate(toDate(person.died)) + ' (' + getAge(toDate(person.born), toDate(person.died)) + ')'
-      }`;
+      lifespan = `${'*' + formatDate(person.born)} — ${'†' + formatDate(person.died) + ' (' + getAge(person.born, person.died) + ')'}`;
     } else if (person.born) {
-      lifespan = `${'*' + formatDate(toDate(person.born))}`;
+      lifespan = `${'*' + formatDate(person.born)}`;
     } else if (person.died) {
-      lifespan = `${'†' + formatDate(toDate(person.died))}`;
+      lifespan = `${'†' + formatDate(person.died)}`;
     }
 
     if (lifespan) {
@@ -101,7 +101,7 @@ function renderPerson(data: KinModel, person: Person, path: any): any[] {
     'tooltip=' + '"' + renderPersonTooltip(person) + '"',
     {
       indent: [
-        applyStyle(data, person.class || [], {
+        applyStyle(style, data, person.class || [], {
           before: {
             label,
             href
@@ -148,7 +148,7 @@ function summarizeFamily(family: Family): string {
 /*
  * Renders a family subgraph
  */
-function renderFamily(data: KinModel, family: Family, path: any): any[] {
+function renderFamily(data: KinModel, family: Family, path: any, styleSheet: Record<string, object>): any[] {
   const slug = slugify(path);
   const color = COLORS[getId('family') % COLORS.length];
   const parents = [...(family.parents || [])];
@@ -184,14 +184,14 @@ function renderFamily(data: KinModel, family: Family, path: any): any[] {
   ];
 
   function style(classes: string[], before?: object) {
-    return { indent: applyStyle(data, classes, { before: before || {} }) };
+    return { indent: applyStyle(styleSheet, data, classes, { before: before || {} }) };
   }
 
   function renderHousePrelude() {
     const label = `<<b>${housename}</b>>`;
     const labelhref = family.links && family.links[0];
 
-    return [applyStyle(data, [':house'], { before: { label, labelhref } })];
+    return [applyStyle(styleSheet, data, [':house'], { before: { label, labelhref } })];
   }
 
   function renderSubFamilies() {
@@ -199,7 +199,7 @@ function renderFamily(data: KinModel, family: Family, path: any): any[] {
     // You want to render the deeper families first so that their parents are placed
     // in those families, rather than the parent families.
     const families = new Array<Family>().concat(family.families || []).reverse();
-    return families.map((f, idx) => renderFamily(data, f, path.concat(idx)));
+    return families.map((f, idx) => renderFamily(data, f, path.concat(idx), styleSheet));
   }
 
   function renderParents() {
@@ -242,9 +242,9 @@ function escape(str: string): string {
 }
 
 function toDate(dateString: string | number): Date {
-  // if the dateString is actually a number
+  // if the dateString is actually a number only the year is given
   if (typeof dateString === 'number') {
-    return new Date(dateString);
+    return new Date(dateString, 0, 1);
   }
 
   // a complete date is given
@@ -253,13 +253,25 @@ function toDate(dateString: string | number): Date {
   return date;
 }
 
-function getAge(born: Date, died: Date): number {
-  const diff = died.valueOf() - born.valueOf();
+function getAge(born: number | string, died: number | string): number {
+  const bornDate = toDate(born);
+  const diedDate = toDate(died);
+
+  const diff = diedDate.valueOf() - bornDate.valueOf();
   const ageDate = new Date(diff);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-function formatDate(date: Date): string {
+function formatDate(dateValue: number | string): string {
+  // if the dateString is actually a number
+  if (typeof dateValue === 'number') {
+    return dateValue.toString();
+  }
+
+  // a complete date is given
+  const [day, month, year] = dateValue.split('.').map(Number);
+  const date = new Date(year, month - 1, day); // month is zero-based
+
   const formatter = new Intl.DateTimeFormat('de', { dateStyle: 'medium' });
   return formatter.format(date);
 }

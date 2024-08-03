@@ -1,13 +1,21 @@
-import DEFAULT_STYLES from './defaults/styles.js';
-
 /**
- * Returns attributes for a given class
+ * Returns style attributes for a given class
  *
  *     data = { styles: { ':root': { color: 'gold', dir: 'none' } } }
  *     applyStyle(data, [':root'])
  *     => ['color="gold"', 'dir="none"']
+ *
+ * @param stylesheet the base stylesheet
+ * @param data the data object with styles
+ * @param classes the classes to apply
+ * @param options optional before and after styles
  */
-export default function applyStyle(data: { styles?: Record<string, object> }, classes: string[], options?: { before?: object; after?: object }) {
+export default function applyStyle(
+  stylesheet: Record<string, object>,
+  data: { styles?: Record<string, object> },
+  classes: string[],
+  options?: { before?: object; after?: object }
+) {
   if (!options) options = {};
 
   function applyStyles(acc: object, stylesheet: Record<string, object>) {
@@ -18,7 +26,7 @@ export default function applyStyle(data: { styles?: Record<string, object> }, cl
   }
   let result: object = {};
   result = Object.assign({}, result, options.before || {});
-  result = applyStyles(result, DEFAULT_STYLES);
+  result = applyStyles(result, stylesheet);
   result = applyStyles(result, data.styles || {});
   result = Object.assign({}, result, options.after || {});
   return renderStyle(result);

@@ -1,17 +1,12 @@
-const DEFAULT_STYLES = {
-  ':bgcolor': {
-    bgcolor: '#23272A'
-  },
+export const DEFAULT_STYLES = {
   ':edge': {
     dir: 'none',
     color: '#cccccc'
   },
   ':house': {
     style: 'filled',
-    color: '#2C2F33',
     labeljust: 'l',
     fontname: 'Helvetica, Arial, sans-serif',
-    fontcolor: 'white',
     fontsize: 16,
     margin: 10
   },
@@ -28,9 +23,7 @@ const DEFAULT_STYLES = {
     shape: 'box',
     style: 'filled',
     fontname: 'Helvetica, Arial, sans-serif',
-    fontcolor: 'white',
     width: 2.5,
-    fillcolor: '#36393f',
     color: '#cccccc'
   },
   ':digraph': {
@@ -42,7 +35,6 @@ const DEFAULT_STYLES = {
     shape: 'circle',
     style: 'filled',
     penwidth: 1,
-    color: 'white',
     label: '',
     height: 0.1,
     width: 0.1
@@ -79,4 +71,28 @@ const DEFAULT_STYLES = {
   }
 };
 
-export default DEFAULT_STYLES;
+export const LIGHT_MODE_DEVIATIONS = {
+  ':house': {
+    color: '#FAFAFA'
+  },
+  ':node': {
+    fillcolor: 'white'
+  }
+};
+
+export const DARK_MODE_DEVIATIONS = {
+  ':bgcolor': {
+    bgcolor: '#23272A'
+  },
+  ':house': {
+    color: '#2C2F33',
+    fontcolor: 'white'
+  },
+  ':node': {
+    fillcolor: '#36393F',
+    fontcolor: 'white'
+  },
+  ':union': {
+    color: 'white'
+  }
+};

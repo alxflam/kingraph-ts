@@ -25,13 +25,20 @@ yargs(hideBin(process.argv))
           describe: 'YAML input file',
           type: 'string',
           demandOption: true
+        })
+        .option('theme', {
+          alias: 't',
+          describe: 'Theme',
+          choices: ['light', 'dark'],
+          default: 'dark'
         });
     },
     async (argv) => {
       const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
       const format = argv.format as 'dot' | 'svg';
+      const theme = argv.theme as 'light' | 'dark';
 
-      const result = await render(input, { format });
+      const result = await render(input, { format, theme });
       process.stdout.write(result);
     }
   )
