@@ -13,27 +13,27 @@ describe('Apply Style Tests', () => {
     };
 
     // single class
-    out = applyStyle(data, ['hello']);
+    out = applyStyle({}, data, ['hello']);
     expect(out).toStrictEqual(['color="gold"', 'dir="none"']);
 
     // single class
-    out = applyStyle(data, ['world']);
+    out = applyStyle({}, data, ['world']);
     expect(out).toStrictEqual(['style="filled"', 'color="blue"']);
 
     // multiple classes
-    out = applyStyle(data, ['hello', 'world']);
+    out = applyStyle({}, data, ['hello', 'world']);
     expect(out).toStrictEqual(['color="blue"', 'dir="none"', 'style="filled"']);
 
     // multiple classes, reordered
-    out = applyStyle(data, ['world', 'hello']);
+    out = applyStyle({}, data, ['world', 'hello']);
     expect(out).toStrictEqual(['color="blue"', 'dir="none"', 'style="filled"']);
 
     // before
-    out = applyStyle(data, ['hello'], { before: { color: 'red' } });
+    out = applyStyle({}, data, ['hello'], { before: { color: 'red' } });
     expect(out).toStrictEqual(['color="gold"', 'dir="none"']);
 
     // after
-    out = applyStyle(data, ['hello'], { after: { color: 'red' } });
+    out = applyStyle({}, data, ['hello'], { after: { color: 'red' } });
     expect(out).toStrictEqual(['color="red"', 'dir="none"']);
   });
 });
