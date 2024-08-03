@@ -8,7 +8,7 @@ for file in $(dirname $0)/*.yaml; do
     filename=$(basename "$file")
     name="${filename%.*}"
 
-    "$kingraph" -y $file -f svg > $name.svg
+    "$kingraph" --yaml $file --format svg --theme light > $script_dir/$name.svg
     if [ $? -ne 0 ]; then
       echo "SVG generation failed for: $filename"
       exit 1
