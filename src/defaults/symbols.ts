@@ -1,7 +1,8 @@
 const SYMBOLS = {
   male: '♂',
   female: '♀',
-  deceased: '†'
+  deceased: '†',
+  born: '*'
 };
 
 export default SYMBOLS;

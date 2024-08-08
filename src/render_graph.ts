@@ -7,6 +7,7 @@ import { Family, KinModel, Person } from './type.js';
 import { DEFAULT_STYLES, DARK_MODE_DEVIATIONS, LIGHT_MODE_DEVIATIONS } from './defaults/styles.js';
 import { merge } from 'lodash-es';
 import { formatDate, getAge } from './date_utils.js';
+import SYMBOLS from './defaults/symbols.js';
 
 const getId = idGenerator();
 
@@ -58,9 +59,9 @@ function renderPerson(data: KinModel, person: Person, path: any, style: Record<s
     let gender = '';
     if (person.gender) {
       if (person.gender.toLowerCase() === 'f') {
-        gender = ' ♀';
+        gender = ' ' + SYMBOLS.female;
       } else if (person.gender.toLowerCase() === 'm') {
-        gender = ' ♂';
+        gender = ' ' + SYMBOLS.male;
       }
     }
 
@@ -83,9 +84,9 @@ function renderPerson(data: KinModel, person: Person, path: any, style: Record<s
     if (person.born && person.died) {
       lifespan = `${'*' + formatDate(person.born)} — ${'†' + formatDate(person.died) + ' (' + getAge(person.born, person.died) + ')'}`;
     } else if (person.born) {
-      lifespan = `${'*' + formatDate(person.born)}`;
+      lifespan = `${SYMBOLS.born + formatDate(person.born)}`;
     } else if (person.died) {
-      lifespan = `${'†' + formatDate(person.died)}`;
+      lifespan = `${SYMBOLS.deceased + formatDate(person.died)}`;
     }
 
     if (lifespan) {
