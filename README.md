@@ -2,12 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/vorburger/kingraph/issues)
+[![CI](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml)
 
-> 👪 Plots family trees using JavaScript and Graphviz
+> 👪 Plots family trees using TypeScript and Graphviz
 
 A family tree plotter with a very simple syntax. It probably doesn't cover everything [bigger tools](https://gramps-project.org/) do, but covers 90% of it for the sake of simplicity.
 
-![Example Graph](examples/intro.png)
+![Example Graph](examples/intro.svg)
 
 ## Getting started
 
