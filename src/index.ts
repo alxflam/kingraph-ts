@@ -43,9 +43,9 @@ yargs(hideBin(process.argv))
       const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
       const format = argv.format as 'dot' | 'svg';
       const theme = argv.theme as 'light' | 'dark';
-      const orientation = argv.orientation as 'LR' | 'TB';
+      const drawDirection = argv.drawDirection as 'LR' | 'TB';
 
-      const result = await render(input, { format, theme, orientation });
+      const result = await render(input, { format, theme, drawDirection });
       process.stdout.write(result);
     }
   )
