@@ -9,10 +9,10 @@ import { KinModel } from './type.js';
  * @param options specifies rendering options (theme and file format)
  *
  */
-export default async function render(data: KinModel, options: { format: 'dot' | 'svg'; theme: 'dark' | 'light' }): Promise<string> {
+export default async function render(data: KinModel, options: { format: 'dot' | 'svg'; theme: 'dark' | 'light'; drawDirection: 'LR' | 'TB' }): Promise<string> {
   const format = options.format;
 
-  const dot = renderGraph(data, options.theme);
+  const dot = renderGraph(data, options.theme, options.drawDirection);
 
   switch (format) {
     case 'dot':

@@ -31,14 +31,21 @@ yargs(hideBin(process.argv))
           describe: 'Theme',
           choices: ['light', 'dark'],
           default: 'dark'
+        })
+        .option('drawDirection', {
+          alias: 'd',
+          describe: 'Draw Direction',
+          choices: ['LR', 'TB'],
+          default: 'LR'
         });
     },
     async (argv) => {
       const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
       const format = argv.format as 'dot' | 'svg';
       const theme = argv.theme as 'light' | 'dark';
+      const orientation = argv.orientation as 'LR' | 'TB';
 
-      const result = await render(input, { format, theme });
+      const result = await render(input, { format, theme, orientation });
       process.stdout.write(result);
     }
   )

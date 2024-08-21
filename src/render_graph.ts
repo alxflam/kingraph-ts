@@ -13,8 +13,9 @@ const getId = idGenerator();
 
 const LINE2 = '# ' + Array(74).join('-');
 
-export default function render(data: KinModel, theme: 'dark' | 'light'): string {
+export default function render(data: KinModel, theme: 'dark' | 'light', drawDirection: 'LR' | 'TB'): string {
   const style = merge(DEFAULT_STYLES, theme === 'dark' ? DARK_MODE_DEVIATIONS : LIGHT_MODE_DEVIATIONS);
+  style[':digraph'].rankdir = drawDirection;
 
   return join(
     [
