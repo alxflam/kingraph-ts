@@ -6,9 +6,26 @@ import { readFileSync } from 'fs';
 import { parse } from 'yaml';
 import render from './render.js';
 import { KinModel } from './type.js';
+import statistics from './statistics.js';
 
 yargs(hideBin(process.argv))
   .scriptName('kingraph-ts')
+  .command(
+    'stats',
+    'Kingraph statistics',
+    (cmd) => {
+      return cmd.option('yaml', {
+        alias: 'y',
+        describe: 'YAML input file',
+        type: 'string',
+        demandOption: true
+      });
+    },
+    (argv) => {
+      const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
+      process.stdout.write(statistics(input));
+    }
+  )
   .command(
     '$0', // the default command is unnamed
     'Generate kingraph from YAML',
