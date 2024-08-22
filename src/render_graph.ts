@@ -81,17 +81,28 @@ function renderPerson(data: KinModel, person: Person, path: any, style: Record<s
       label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${person.fullname || person.name}` + `</font></td></tr>`;
     }
 
-    let lifespan: string | undefined = undefined;
-    if (person.born && person.died) {
-      lifespan = `${'*' + formatDate(person.born)} — ${'†' + formatDate(person.died) + ' (' + getAge(person.born, person.died) + ')'}`;
-    } else if (person.born) {
-      lifespan = `${SYMBOLS.born + formatDate(person.born)}`;
-    } else if (person.died) {
-      lifespan = `${SYMBOLS.deceased + formatDate(person.died)}`;
+    if (person.profession) {
+      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${person.profession}` + `</font></td></tr>`;
     }
 
-    if (lifespan) {
-      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${lifespan}</font></td></tr>`;
+    if (person.born) {
+      let born = `${SYMBOLS.born + formatDate(person.born)}`;
+      if (person.birthplace) {
+        born += ` in ${person.birthplace}`;
+      }
+      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${born}</font></td></tr>`;
+    }
+
+    if (person.died) {
+      let died = `${SYMBOLS.deceased + formatDate(person.died)}`;
+      if (person.born && person.died) {
+        const age = getAge(person.born, person.died);
+        died += ` (${age})`;
+      }
+      if (person.burialplace) {
+        died += ` in ${person.burialplace}`;
+      }
+      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${died}</font></td></tr>`;
     }
 
     label += '</table>>';

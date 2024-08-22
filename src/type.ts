@@ -7,6 +7,9 @@ export interface Person {
   gender?: 'm' | 'f';
   born?: number | string;
   died?: number | string;
+  birthplace?: string;
+  burialplace?: string;
+  profession?: string;
   picture?: string;
   comment?: string;
 }
