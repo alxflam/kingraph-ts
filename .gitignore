@@ -1,10 +1,5 @@
 node_modules
-*.dot
-*.log
-.DS_Store
-*.yaml.png
-*.yaml.pdf
-*.yaml.svg
-coverage/
-\.idea/
-target/
+out
+coverage
+.stryker-tmp
+reports

@@ -1,0 +1,293 @@
+<svg width="787pt" height="505pt" viewBox="0.00 0.00 786.80 505.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 501)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-501 782.8,-501 782.8,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_family_0</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="8,-352 8,-489 489.4,-489 489.4,-352 8,-352"/>
+<text text-anchor="start" x="16" y="-471.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Pritchett</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_family_0_0</title>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_family_0_1</title>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_family_1</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="289.4,-153 289.4,-344 770.8,-344 770.8,-153 289.4,-153"/>
+<text text-anchor="start" x="297.4" y="-326.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Dunphy</text>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_family_1_0</title>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_family_2</title>
+<polygon fill="#fafafa" stroke="#fafafa" points="289.4,-8 289.4,-145 770.8,-145 770.8,-8 289.4,-8"/>
+<text text-anchor="start" x="297.4" y="-127.6" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16.00">Tucker</text>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_family_2_0</title>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_family_3</title>
+</g>
+<!-- union_0_0 -->
+<g id="node1" class="node">
+<title>union_0_0</title>
+<ellipse fill="#ccdf32" stroke="#cccccc" cx="230.6" cy="-380" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_0_0 -->
+<g id="node3" class="node">
+<title>siblings_0_0</title>
+<polygon fill="#ccdf32" stroke="#cccccc" stroke-width="0" points="270.4,-380.72 263.2,-380.72 263.2,-379.28 270.4,-379.28 270.4,-380.72"/>
+</g>
+<!-- union_0_0&#45;&gt;siblings_0_0 -->
+<g id="edge2" class="edge">
+<title>union_0_0-&gt;siblings_0_0</title>
+<path fill="none" stroke="#ccdf32" d="M234.47,-380C241.62,-380 256.77,-380 263.48,-380"/>
+</g>
+<!-- Gloria -->
+<g id="node2" class="node">
+<title>Gloria</title>
+<polygon fill="white" stroke="#cccccc" points="198,-398 18,-398 18,-362 198,-362 198,-398"/>
+<text text-anchor="middle" x="108" y="-375.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Gloria</text>
+</g>
+<!-- Gloria&#45;&gt;union_0_0 -->
+<g id="edge1" class="edge">
+<title>Gloria-&gt;union_0_0</title>
+<path fill="none" stroke="#ccdf32" d="M198.39,-380C211.02,-380 221.51,-380 226.83,-380"/>
+</g>
+<!-- union_0_1 -->
+<g id="node5" class="node">
+<title>union_0_1</title>
+<ellipse fill="#629755" stroke="#cccccc" cx="230.6" cy="-434" rx="3.6" ry="3.6"/>
+</g>
+<!-- Gloria&#45;&gt;union_0_1 -->
+<g id="edge4" class="edge">
+<title>Gloria-&gt;union_0_1</title>
+<path fill="none" stroke="#629755" d="M198.39,-390.8C216.76,-390.8 230.6,-390.8 230.6,-390.8 230.6,-390.8 230.6,-419.32 230.6,-430.01"/>
+</g>
+<!-- Manny -->
+<g id="node4" class="node">
+<title>Manny</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-398 299.4,-398 299.4,-362 479.4,-362 479.4,-398"/>
+<text text-anchor="middle" x="389.4" y="-375.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Manny</text>
+</g>
+<!-- siblings_0_0&#45;&gt;Manny -->
+<g id="edge3" class="edge">
+<title>siblings_0_0-&gt;Manny</title>
+<path fill="none" stroke="#ccdf32" d="M270.34,-380C270.34,-380 289.14,-380 289.14,-380"/>
+<polygon fill="#ccdf32" stroke="#ccdf32" points="297.14,-370 297.14,-390 293.14,-390 293.14,-370 297.14,-370"/>
+<polyline fill="none" stroke="#ccdf32" points="299.14,-380 289.14,-380"/>
+</g>
+<!-- siblings_0_1 -->
+<g id="node7" class="node">
+<title>siblings_0_1</title>
+<polygon fill="#629755" stroke="#cccccc" stroke-width="0" points="270.4,-434.72 263.2,-434.72 263.2,-433.28 270.4,-433.28 270.4,-434.72"/>
+</g>
+<!-- union_0_1&#45;&gt;siblings_0_1 -->
+<g id="edge6" class="edge">
+<title>union_0_1-&gt;siblings_0_1</title>
+<path fill="none" stroke="#629755" d="M234.47,-434C241.62,-434 256.77,-434 263.48,-434"/>
+</g>
+<!-- Jay -->
+<g id="node6" class="node">
+<title>Jay</title>
+<polygon fill="white" stroke="#cccccc" points="198,-452 18,-452 18,-416 198,-416 198,-452"/>
+<text text-anchor="middle" x="108" y="-429.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Jay</text>
+</g>
+<!-- Jay&#45;&gt;union_0_1 -->
+<g id="edge5" class="edge">
+<title>Jay-&gt;union_0_1</title>
+<path fill="none" stroke="#629755" d="M198.39,-434C211.02,-434 221.51,-434 226.83,-434"/>
+</g>
+<!-- union_3 -->
+<g id="node21" class="node">
+<title>union_3</title>
+<ellipse fill="#efc090" stroke="#cccccc" cx="230.6" cy="-262" rx="3.6" ry="3.6"/>
+</g>
+<!-- Jay&#45;&gt;union_3 -->
+<g id="edge18" class="edge">
+<title>Jay-&gt;union_3</title>
+<path fill="none" stroke="#efc090" d="M198.41,-423.2C206.95,-423.2 212.5,-423.2 212.5,-423.2 212.5,-423.2 212.5,-263.2 212.5,-263.2 212.5,-263.2 221.45,-263.2 226.76,-263.2"/>
+</g>
+<!-- Joe -->
+<g id="node8" class="node">
+<title>Joe</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-452 299.4,-452 299.4,-416 479.4,-416 479.4,-452"/>
+<text text-anchor="middle" x="389.4" y="-429.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Joe</text>
+</g>
+<!-- siblings_0_1&#45;&gt;Joe -->
+<g id="edge7" class="edge">
+<title>siblings_0_1-&gt;Joe</title>
+<path fill="none" stroke="#629755" d="M270.34,-434C270.34,-434 289.14,-434 289.14,-434"/>
+<polygon fill="#629755" stroke="#629755" points="297.14,-424 297.14,-444 293.14,-444 293.14,-424 297.14,-424"/>
+<polyline fill="none" stroke="#629755" points="299.14,-434 289.14,-434"/>
+</g>
+<!-- union_1_0 -->
+<g id="node9" class="node">
+<title>union_1_0</title>
+<ellipse fill="#6897bb" stroke="#cccccc" cx="512" cy="-235" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_1_0 -->
+<g id="node12" class="node">
+<title>siblings_1_0</title>
+<polygon fill="#6897bb" stroke="#cccccc" stroke-width="0" points="551.8,-235.72 544.6,-235.72 544.6,-234.28 551.8,-234.28 551.8,-235.72"/>
+</g>
+<!-- union_1_0&#45;&gt;siblings_1_0 -->
+<g id="edge10" class="edge">
+<title>union_1_0-&gt;siblings_1_0</title>
+<path fill="none" stroke="#6897bb" d="M515.87,-235C523.02,-235 538.17,-235 544.88,-235"/>
+</g>
+<!-- Phil -->
+<g id="node10" class="node">
+<title>Phil</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-226 299.4,-226 299.4,-190 479.4,-190 479.4,-226"/>
+<text text-anchor="middle" x="389.4" y="-203.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Phil</text>
+</g>
+<!-- Phil&#45;&gt;union_1_0 -->
+<g id="edge8" class="edge">
+<title>Phil-&gt;union_1_0</title>
+<path fill="none" stroke="#6897bb" d="M479.7,-221.5C498.74,-221.5 513.2,-221.5 513.2,-221.5 513.2,-221.5 513.2,-227.31 513.2,-231.31"/>
+</g>
+<!-- Claire -->
+<g id="node11" class="node">
+<title>Claire</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-280 299.4,-280 299.4,-244 479.4,-244 479.4,-280"/>
+<text text-anchor="middle" x="389.4" y="-257.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Claire</text>
+</g>
+<!-- Claire&#45;&gt;union_1_0 -->
+<g id="edge9" class="edge">
+<title>Claire-&gt;union_1_0</title>
+<path fill="none" stroke="#6897bb" d="M479.79,-248.5C498.16,-248.5 512,-248.5 512,-248.5 512,-248.5 512,-242.96 512,-238.98"/>
+</g>
+<!-- Alex -->
+<g id="node13" class="node">
+<title>Alex</title>
+<polygon fill="white" stroke="#cccccc" points="760.8,-253 580.8,-253 580.8,-217 760.8,-217 760.8,-253"/>
+<text text-anchor="middle" x="670.8" y="-230.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Alex</text>
+</g>
+<!-- siblings_1_0&#45;&gt;Alex -->
+<g id="edge11" class="edge">
+<title>siblings_1_0-&gt;Alex</title>
+<path fill="none" stroke="#6897bb" d="M551.74,-235C551.74,-235 570.54,-235 570.54,-235"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="578.54,-225 578.54,-245 574.54,-245 574.54,-225 578.54,-225"/>
+<polyline fill="none" stroke="#6897bb" points="580.54,-235 570.54,-235"/>
+</g>
+<!-- Luke -->
+<g id="node14" class="node">
+<title>Luke</title>
+<polygon fill="white" stroke="#cccccc" points="760.8,-307 580.8,-307 580.8,-271 760.8,-271 760.8,-307"/>
+<text text-anchor="middle" x="670.8" y="-284.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Luke</text>
+</g>
+<!-- siblings_1_0&#45;&gt;Luke -->
+<g id="edge12" class="edge">
+<title>siblings_1_0-&gt;Luke</title>
+<path fill="none" stroke="#6897bb" d="M548.2,-235.7C548.2,-241.08 548.2,-275.5 548.2,-275.5 548.2,-275.5 570.41,-275.5 570.41,-275.5"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="578.41,-265.5 578.41,-285.5 574.41,-285.5 574.41,-265.5 578.41,-265.5"/>
+<polyline fill="none" stroke="#6897bb" points="580.41,-275.5 570.41,-275.5"/>
+</g>
+<!-- Haley -->
+<g id="node15" class="node">
+<title>Haley</title>
+<polygon fill="white" stroke="#cccccc" points="760.8,-199 580.8,-199 580.8,-163 760.8,-163 760.8,-199"/>
+<text text-anchor="middle" x="670.8" y="-176.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Haley</text>
+</g>
+<!-- siblings_1_0&#45;&gt;Haley -->
+<g id="edge13" class="edge">
+<title>siblings_1_0-&gt;Haley</title>
+<path fill="none" stroke="#6897bb" d="M548.2,-234.3C548.2,-228.92 548.2,-194.5 548.2,-194.5 548.2,-194.5 570.41,-194.5 570.41,-194.5"/>
+<polygon fill="#6897bb" stroke="#6897bb" points="578.41,-184.5 578.41,-204.5 574.41,-204.5 574.41,-184.5 578.41,-184.5"/>
+<polyline fill="none" stroke="#6897bb" points="580.41,-194.5 570.41,-194.5"/>
+</g>
+<!-- union_2_0 -->
+<g id="node16" class="node">
+<title>union_2_0</title>
+<ellipse fill="#9876aa" stroke="#cccccc" cx="512" cy="-63" rx="3.6" ry="3.6"/>
+</g>
+<!-- siblings_2_0 -->
+<g id="node19" class="node">
+<title>siblings_2_0</title>
+<polygon fill="#9876aa" stroke="#cccccc" stroke-width="0" points="551.8,-63.72 544.6,-63.72 544.6,-62.28 551.8,-62.28 551.8,-63.72"/>
+</g>
+<!-- union_2_0&#45;&gt;siblings_2_0 -->
+<g id="edge16" class="edge">
+<title>union_2_0-&gt;siblings_2_0</title>
+<path fill="none" stroke="#9876aa" d="M515.87,-63C523.02,-63 538.17,-63 544.88,-63"/>
+</g>
+<!-- Cam -->
+<g id="node17" class="node">
+<title>Cam</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-54 299.4,-54 299.4,-18 479.4,-18 479.4,-54"/>
+<text text-anchor="middle" x="389.4" y="-31.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Cam</text>
+</g>
+<!-- Cam&#45;&gt;union_2_0 -->
+<g id="edge14" class="edge">
+<title>Cam-&gt;union_2_0</title>
+<path fill="none" stroke="#9876aa" d="M479.79,-49.5C498.16,-49.5 512,-49.5 512,-49.5 512,-49.5 512,-55.04 512,-59.02"/>
+</g>
+<!-- Mitchell -->
+<g id="node18" class="node">
+<title>Mitchell</title>
+<polygon fill="white" stroke="#cccccc" points="479.4,-108 299.4,-108 299.4,-72 479.4,-72 479.4,-108"/>
+<text text-anchor="middle" x="389.4" y="-85.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Mitchell</text>
+</g>
+<!-- Mitchell&#45;&gt;union_2_0 -->
+<g id="edge15" class="edge">
+<title>Mitchell-&gt;union_2_0</title>
+<path fill="none" stroke="#9876aa" d="M479.85,-76.5C497.57,-76.5 510.8,-76.5 510.8,-76.5 510.8,-76.5 510.8,-70.69 510.8,-66.69"/>
+</g>
+<!-- Lily -->
+<g id="node20" class="node">
+<title>Lily</title>
+<polygon fill="white" stroke="#cccccc" points="760.8,-81 580.8,-81 580.8,-45 760.8,-45 760.8,-81"/>
+<text text-anchor="middle" x="670.8" y="-58.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Lily</text>
+</g>
+<!-- siblings_2_0&#45;&gt;Lily -->
+<g id="edge17" class="edge">
+<title>siblings_2_0-&gt;Lily</title>
+<path fill="none" stroke="#9876aa" stroke-dasharray="5,2" d="M551.74,-63C551.74,-63 570.54,-63 570.54,-63"/>
+<polygon fill="#9876aa" stroke="#9876aa" points="578.54,-53 578.54,-73 574.54,-73 574.54,-53 578.54,-53"/>
+<polyline fill="none" stroke="#9876aa" points="580.54,-63 570.54,-63"/>
+</g>
+<!-- siblings_3 -->
+<g id="node23" class="node">
+<title>siblings_3</title>
+<polygon fill="#efc090" stroke="#cccccc" stroke-width="0" points="270.4,-262.72 263.2,-262.72 263.2,-261.28 270.4,-261.28 270.4,-262.72"/>
+</g>
+<!-- union_3&#45;&gt;siblings_3 -->
+<g id="edge20" class="edge">
+<title>union_3-&gt;siblings_3</title>
+<path fill="none" stroke="#efc090" d="M234.47,-262C241.62,-262 256.77,-262 263.48,-262"/>
+</g>
+<!-- Dede -->
+<g id="node22" class="node">
+<title>Dede</title>
+<g id="a_node22"><a xlink:title="undefined &#xA;&#xA;&#xA;">
+<polygon fill="#f4f4f4" stroke="#cccccc" stroke-width="0" points="198,-280 18,-280 18,-244 198,-244 198,-280"/>
+<text text-anchor="middle" x="108" y="-257.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">Dede</text>
+</a>
+</g>
+</g>
+<!-- Dede&#45;&gt;union_3 -->
+<g id="edge19" class="edge">
+<title>Dede-&gt;union_3</title>
+<path fill="none" stroke="#efc090" d="M197.75,-260.8C210.6,-260.8 221.31,-260.8 226.75,-260.8"/>
+</g>
+<!-- siblings_3&#45;&gt;Claire -->
+<g id="edge21" class="edge">
+<title>siblings_3-&gt;Claire</title>
+<path fill="none" stroke="#efc090" d="M270.34,-262C270.34,-262 289.14,-262 289.14,-262"/>
+<polygon fill="#efc090" stroke="#efc090" points="297.14,-252 297.14,-272 293.14,-272 293.14,-252 297.14,-252"/>
+<polyline fill="none" stroke="#efc090" points="299.14,-262 289.14,-262"/>
+</g>
+<!-- siblings_3&#45;&gt;Mitchell -->
+<g id="edge22" class="edge">
+<title>siblings_3-&gt;Mitchell</title>
+<path fill="none" stroke="#efc090" d="M266.8,-261.51C266.8,-251.42 266.8,-90 266.8,-90 266.8,-90 289.01,-90 289.01,-90"/>
+<polygon fill="#efc090" stroke="#efc090" points="297.01,-80 297.01,-100 293.01,-100 293.01,-80 297.01,-80"/>
+<polyline fill="none" stroke="#efc090" points="299.01,-90 289.01,-90"/>
+</g>
+</g>
+</svg>

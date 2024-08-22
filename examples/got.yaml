@@ -62,9 +62,9 @@ people:
   Cersei:
     fullname: Cersei Lannister
   Jaime:
-    fullname: Jaime "Kingslayer" Lannister
+    fullname: Jaime 'Kingslayer' Lannister
   Tyrion:
-    fullname: Tyrion "The Imp" Lannister
+    fullname: Tyrion 'The Imp' Lannister
   Rhaegar:
     fullname: Rhaegar Targaryen
     class: [minor]
@@ -91,7 +91,7 @@ people:
   Lyarra:
     class: [minor]
   Littlefinger:
-    fullname: Petyr "Littlefinger" Baelish
+    fullname: Petyr 'Littlefinger' Baelish
     class: [unaffiliated]
   Ned:
     fullname: Eddard Stark
