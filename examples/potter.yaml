@@ -39,6 +39,18 @@ people:
     class: [muggleborn]
     links:
       - http://harrypotter.wikia.com/wiki/Lily_J._Potter
+  Harry:
+    fullname: Harry Potter
+    links:
+      - http://harrypotter.wikia.com/wiki/Harry_Potter
+  Arthur:
+    fullname: Arthur Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/Arthur_Weasley
+  Molly:
+    fullname: Molly Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/Molly_Weasley
   Fleur:
     fullname: Fleur Delacour
     links:
@@ -47,6 +59,22 @@ people:
     fullname: Ron Weasley
     links:
       - http://harrypotter.wikia.com/wiki/Ronald_Weasley
+  Ginny:
+    fullname: Ginny Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/Ginevra_Weasley
+  George:
+    fullname: George Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/George_Weasley
+  Fred:
+    fullname: Fred Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/Fred_Weasley
+  Bill: 
+    fullname: Bill Weasley
+    links:
+      - http://harrypotter.wikia.com/wiki/Bill_Weasley
   Hermione:
     fullname: Hermione Granger
     class: [muggleborn]
