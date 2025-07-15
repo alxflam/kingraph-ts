@@ -6,7 +6,10 @@
         "!src/index.ts",
         "!src/render_graph.ts",
         "!src/render.ts",
-        "!src/type.ts"
+        "!src/type.ts",
+        "!src/gedcom/*.ts",
+        "!src/statistics.ts",
+        "!src/transform.ts"
     ],
     "vitest": {
         "configFile": "vitest.config.ts"
