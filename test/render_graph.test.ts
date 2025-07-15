@@ -9,8 +9,8 @@ describe('Render Graph', () => {
       families: [],
       people: {
         PersonId: {
-          fullname: 'First Name',
-          name: 'Abc'
+          givenName: 'First Name',
+          surname: 'Abc'
         }
       },
       styles: {}
@@ -34,8 +34,8 @@ describe('Render Graph', () => {
       families: [],
       people: {
         PersonId: {
-          fullname: 'First Name',
-          name: 'Abc',
+          givenName: 'First Name',
+          surname: 'Abc',
           born: '01.01.2000'
         }
       },
@@ -61,8 +61,8 @@ describe('Render Graph', () => {
       families: [],
       people: {
         PersonId: {
-          fullname: 'First Name',
-          name: 'Abc',
+          givenName: 'First Name',
+          surname: 'Abc',
           died: '01.01.1900'
         }
       },
@@ -88,8 +88,8 @@ describe('Render Graph', () => {
       families: [],
       people: {
         PersonId: {
-          fullname: 'First Name',
-          name: 'Abc',
+          givenName: 'First Name',
+          surname: 'Abc',
           born: '01.01.1900',
           died: '02.02.1990'
         }
@@ -122,16 +122,16 @@ describe('Render Graph', () => {
       ],
       people: {
         X: {
-          fullname: 'X Parent',
-          name: 'X'
+          surname: 'X Parent',
+          givenName: 'X'
         },
         Y: {
-          fullname: 'Y Parent',
-          name: 'Y'
+          surname: 'Y Parent',
+          givenName: 'Y'
         },
         Z: {
-          fullname: 'Z Child',
-          name: 'Z'
+          surname: 'Z Child',
+          givenName: 'Z'
         }
       },
       styles: {}
