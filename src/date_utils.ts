@@ -1,4 +1,4 @@
-function toDate(dateString: string | number): Date {
+export function toDate(dateString: string | number): Date {
   // if the dateString is actually a number only the year is given
   if (typeof dateString === 'number') {
     return new Date(dateString, 0, 1);

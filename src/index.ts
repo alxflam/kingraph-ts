@@ -7,6 +7,7 @@ import { parse } from 'yaml';
 import render from './render.js';
 import { KinModel } from './type.js';
 import statistics from './statistics.js';
+import transform from './transform.js';
 
 yargs(hideBin(process.argv))
   .scriptName('kingraph-ts')
@@ -24,6 +25,30 @@ yargs(hideBin(process.argv))
     (argv) => {
       const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
       process.stdout.write(statistics(input));
+    }
+  )
+  .command(
+    'transform',
+    'Transform kingraph file',
+    (cmd) => {
+      return cmd
+        .option('yaml', {
+          alias: 'y',
+          describe: 'YAML input file',
+          type: 'string',
+          demandOption: true
+        })
+        .option('format', {
+          alias: 'f',
+          describe: 'Target format',
+          choices: ['gedcom'],
+          default: 'gedcom'
+        });
+    },
+    (argv) => {
+      const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
+      const format = argv.format as 'gedcom' | 'xml';
+      process.stdout.write(transform(input, { format }));
     }
   )
   .command(
@@ -54,6 +79,14 @@ yargs(hideBin(process.argv))
           describe: 'Draw Direction',
           choices: ['LR', 'TB'],
           default: 'LR'
+        })
+        .option('ancestorGraph', {
+          describe: 'Ancestor Graph',
+          type: 'boolean'
+        })
+        .option('ancestorLeaf', {
+          describe: 'Ancestor Leaf',
+          type: 'string'
         });
     },
     async (argv) => {
@@ -61,8 +94,10 @@ yargs(hideBin(process.argv))
       const format = argv.format as 'dot' | 'svg';
       const theme = argv.theme as 'light' | 'dark';
       const drawDirection = argv.drawDirection as 'LR' | 'TB';
+      const ancestorGraph = argv.ancestorGraph ? true : false;
+      const ancestorLeaf = argv.ancestorLeaf as string | undefined;
 
-      const result = await render(input, { format, theme, drawDirection });
+      const result = await render(input, { format, theme, drawDirection, ancestorGraph, ancestorLeaf });
       process.stdout.write(result);
     }
   )
