@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import join from './join.js';
 import slugify from './slugify.js';
 import applyStyle from './apply_style.js';
@@ -51,12 +52,12 @@ function renderHouse(data: KinModel, style: Record<string, object>) {
   ];
 }
 
-function renderPerson(data: KinModel, person: Person, path: any, style: Record<string, object>): any[] {
+function renderPerson(data: KinModel, person: Person, path: string[], style: Record<string, object>): any[] {
   const id = path[path.length - 1];
   let label;
   const href = person.links && person.links[0];
 
-  if (person.name || person.fullname || person.gender || person.born || person.died || person.picture) {
+  if (person.givenName || person.surname || person.gender || person.born || person.died || person.picture) {
     let gender = '';
     if (person.gender) {
       if (person.gender.toLowerCase() === 'f') {
@@ -75,10 +76,10 @@ function renderPerson(data: KinModel, person: Person, path: any, style: Record<s
       '<<table align="center" border="0" cellpadding="0" cellspacing="2" width="4">' +
       `${picture}` +
       '<tr><td align="center">' +
-      `${person.name || id}${gender}</td></tr>`;
+      `${person.givenName || person.mainGivenName || id}${gender}</td></tr>`;
 
-    if (person.fullname) {
-      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${person.fullname || person.name}` + `</font></td></tr>`;
+    if (person.surname) {
+      label += '<tr><td align="center">' + '<font point-size="10" color="#aaaaaa">' + `${person.givenName}  ${person.surname}` + `</font></td></tr>`;
     }
 
     if (person.profession) {
@@ -131,8 +132,8 @@ function renderPersonTooltip(person: Person) {
   // \\n is used as newline because some dotparsers don't support the regular \n
   // nevertheless the result will be the same
   let txt = '';
-  txt += person.name + ' ' || '';
-  txt += person.fullname || '';
+  txt += person.givenName + ' ' || '';
+  txt += person.surname || '';
   txt += txt.length > 0 ? '\\n' : '';
   txt += person.born ? 'Born ' + person.born + ' ' : '';
   txt += person.born && person.died ? ' -- Died ' + person.died : '';

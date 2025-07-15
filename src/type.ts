@@ -1,7 +1,8 @@
 // Define an interface for a person
 export interface Person {
-  fullname?: string;
-  name?: string;
+  givenName?: string;
+  mainGivenName?: string;
+  surname?: string;
   links?: string[];
   class?: string[];
   gender?: 'm' | 'f';
