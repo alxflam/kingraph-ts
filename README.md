@@ -45,7 +45,7 @@ Spoiler alerts, view at your own risk :)
 
 Source: *[simpsons.yaml](examples/simpsons.yaml)*
 
-> ![Simpsons Example](examples/simpsons.png)
+> ![Simpsons Example](examples/simpsons.svg)
 </details>
 
 <details>
@@ -53,7 +53,7 @@ Source: *[simpsons.yaml](examples/simpsons.yaml)*
 
 Source: *[modernfamily.yaml](examples/modernfamily.yaml)*
 
-> ![Modern Family Example](examples/modernfamily.png)
+> ![Modern Family Example](examples/modernfamily.svg)
 </details>
 
 <details>
@@ -61,7 +61,7 @@ Source: *[modernfamily.yaml](examples/modernfamily.yaml)*
 
 Source: *[potter.yaml](examples/potter.yaml)*
 
-> ![Potter Example](examples/potter.png)
+> ![Potter Example](examples/potter.svg)
 </details>
 
 <details>
@@ -69,7 +69,7 @@ Source: *[potter.yaml](examples/potter.yaml)*
 
 Source: *[got.yaml](examples/got.yaml)*
 
-> ![GOT Example](examples/got.png)
+> ![GOT Example](examples/got.svg)
 </details>
 
 ## Documentation
