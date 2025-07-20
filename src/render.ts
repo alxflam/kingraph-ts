@@ -1,6 +1,5 @@
 import renderGraph from './render_graph.js';
-import { instance } from '@viz-js/viz';
-import { JSDOM } from 'jsdom';
+import { Graphviz } from '@hpcc-js/wasm-graphviz';
 import { Family, KinModel } from './type.js';
 
 /**
@@ -83,17 +82,9 @@ export default async function render(
       return dot;
     case 'svg':
       try {
-        const window = new JSDOM().window;
-        global.DOMParser = window.DOMParser;
-        global.XMLSerializer = window.XMLSerializer;
-
-        const viz = await Promise.resolve(instance());
-        // TODO to support images, the images need to be given as an option, e.g.:
-        // images: [{ name: 'person.jpg', width: 100, height: 100 }]
-        const svg = viz.renderSVGElement(dot, { format, engine: 'dot' });
-
-        const serializer = new XMLSerializer();
-        return serializer.serializeToString(svg);
+        const graphviz = await Graphviz.load();
+        const svg = graphviz.dot(dot);
+        return svg;
       } finally {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         delete (global as any).DOMParser;

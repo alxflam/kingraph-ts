@@ -47,8 +47,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@viz-js/viz": "^3.7.0",
-    "jsdom": "^26.1.0",
+    "@hpcc-js/wasm-graphviz": "^1.10.0",
     "lodash-es": "^4.17.21",
     "yaml": "^2.5.0",
     "yargs": "^17.7.2"
