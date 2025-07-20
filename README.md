@@ -1,7 +1,7 @@
 # kingraph
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/vorburger/kingraph/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/alxflam/kingraph-ts/issues)
 [![CI](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml)
 
 > 👪 Plots family trees using TypeScript and Graphviz
