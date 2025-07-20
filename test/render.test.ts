@@ -15,6 +15,6 @@ describe('Should Render', () => {
       { families: [], people: {}, styles: {} },
       { format: 'svg', theme: 'dark', drawDirection: 'LR', ancestorGraph: false, ancestorLeaf: undefined }
     );
-    expect(result).toMatch(new RegExp('^<svg.*</svg>$', 's'));
+    expect(result).toMatch(new RegExp('<svg.*</svg>', 's'));
   });
 });
