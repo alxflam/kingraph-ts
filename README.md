@@ -81,7 +81,7 @@ For further reading:
 - [Schema](docs/schema.md)
 
 ## Develop
-Ensure you have node.js 20 installed and run the following commands:
+Ensure you have node.js 24 installed and run the following commands:
 
 ```sh
 npm i
