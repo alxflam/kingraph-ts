@@ -8,6 +8,7 @@ import render from './render.js';
 import { KinModel } from './type.js';
 import statistics from './statistics.js';
 import transform from './transform.js';
+import toLatexGraph from './toLatexGraph.js';
 
 yargs(hideBin(process.argv))
   .scriptName('kingraph-ts')
@@ -49,6 +50,35 @@ yargs(hideBin(process.argv))
       const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
       const format = argv.format as 'gedcom' | 'xml';
       process.stdout.write(transform(input, { format }));
+    }
+  )
+  .command(
+    'toLatexGraph',
+    'Transform to LaTex graph',
+    (cmd) => {
+      return cmd
+        .option('yaml', {
+          alias: 'y',
+          describe: 'YAML input file',
+          type: 'string',
+          demandOption: true
+        })
+        .option('generations', {
+          describe: 'Number of Generations',
+          type: 'number',
+          default: 10
+        })
+        .option('ancestorLeaf', {
+          describe: 'Ancestor Leaf',
+          type: 'string',
+          demandOption: true
+        });
+    },
+    (argv) => {
+      const input = parse(readFileSync(argv.yaml, 'utf8')) as KinModel;
+      const generations = argv.generations as number;
+      const ancestorLeaf = argv.ancestorLeaf as string;
+      process.stdout.write(toLatexGraph(input, generations, ancestorLeaf));
     }
   )
   .command(
