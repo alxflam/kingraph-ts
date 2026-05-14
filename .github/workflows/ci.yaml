@@ -8,35 +8,33 @@ on:
 
 jobs:
   ci:
-    strategy:
-      fail-fast: false
-      matrix:
-        node: [24]
-        os: [ubuntu-latest]
-    runs-on: ${{ matrix.os }}
-    name: ${{ matrix.os }} - Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    name: CI
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-go@v6
         with:
-          node-version: ${{ matrix.node }}
-      - name: Install
-        run: npm ci
-      - name: Build
-        run: npm run build
-      - name: Lint
-        run: npm run lint
-      - name: Format
-        run: npm run format:check
-      - name: Test
-        run: npm run test
-      - name: Coverage
-        run: npm run coverage
-      - name: Mutation Tests
-        run: npm run mutate
-      - name: Make scripts executable
+          go-version-file: go.mod
+      - name: Install Graphviz
+        run: sudo apt-get install -y graphviz          
+      - name: Download dependencies
+        run: go mod download
+      - name: Format check
         run: |
-          chmod a+x ./examples/recreate.sh
-          chmod a+x ./out/index.js
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "gofmt needed on:"
+            echo "$unformatted"
+            exit 1
+          fi
+      - name: Vet
+        run: go vet ./...
+      - name: Test
+        run: go test ./...
+      - name: Build
+        run: go build -o kingraph ./cmd/kingraph
+      - name: Make scripts executable
+        run: chmod a+x ./examples/recreate.sh
       - name: Recreate example SVGs
-        run: ./examples/recreate.sh
+        working-directory: examples
+        run: ./recreate.sh

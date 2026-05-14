@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.0 Unreleased]
+## [Unreleased]
 
 ### Added
 - script to generate example SVGs
@@ -21,3 +21,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - transformed project sources to TypeScript
 - use `wasm-graphviz` for SVG generation instead of `viz-js/viz`
 - updated to Node 24
+- migrated project from TypeScript to Go

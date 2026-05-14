@@ -13,8 +13,8 @@ families:
 kingraph can give you `svg` (default) or `dot` files. However, using `dot` output and converting it via `dot` is recommended.
 
 ```sh
-kingraph-ts family.yaml > family.svg
-kingraph-ts family.yaml -f dot > family.dot
+kingraph-go family.yaml > family.svg
+kingraph-go family.yaml -f dot > family.dot
 ```
 
 ## Defining names

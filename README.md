@@ -4,7 +4,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/alxflam/kingraph-ts/issues)
 [![CI](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/alxflam/kingraph-ts/actions/workflows/ci.yaml)
 
-> 👪 Plots family trees using TypeScript and Graphviz
+> 👪 Plots family trees using Go, Graphviz and LaTex
 
 A family tree plotter with a very simple syntax. It probably doesn't cover everything [bigger tools](https://gramps-project.org/) do, but covers 90% of it for the sake of simplicity.
 
@@ -29,12 +29,10 @@ people:
 Build the project and then run the CLI application to transform a YAML file into a Graphviz DOT file or SVG:
 
 ```sh
-npm i
-npm run build
-./out/index.js -y family.yaml -f dot > family.dot
+go mod tidy
+go build -o kingraph ./cmd/kingraph
+./kingraph -y ./examples/simpsons.yaml -f svg > out.svg
 ```
-
-You can also try to generate a SVG with `kingraph-ts` directly by using `--format svg`, but you'll likely [run into memory issues](https://github.com/rstacruz/kingraph/issues/6).
 
 ## Further Examples
 
@@ -80,27 +78,62 @@ For further reading:
 - [Advanced usage](docs/advanced.md)
 - [Schema](docs/schema.md)
 
+## Commands
+
+Render DOT:
+
+```sh
+./kingraph -y ./examples/simpsons.yaml -f dot > out.dot
+```
+
+Render SVG (requires `dot`):
+
+```sh
+./kingraph -y ./examples/simpsons.yaml -f svg > out.svg
+```
+
+LaTeX fan chart:
+
+```sh
+./kingraph latexFanChart -y ./examples/simpsons.yaml --ancestorLeaf Homer --generations 4
+```
+
+Transform to GEDCOM:
+
+```sh
+./kingraph transform -y ./examples/simpsons.yaml -f gedcom > out.ged
+```
+
+Statistics:
+
+```sh
+./kingraph stats -y ./examples/simpsons.yaml
+```
+
 ## Develop
-Ensure you have node.js 24 installed and run the following commands:
+Ensure you have go 1.26+ installed and run the following commands:
 
 ```sh
-npm i
-npm run build
+go mod tidy
+go build -o kingraph ./cmd/kingraph
 ```
 
-To execute tests, coverage and mutation tests run the following commands:
+To execute tests and coverage run the following command:
 
 ```sh
-npm run test
-npm run coverage
-npm run mutate
+go test ./...
 ```
 
-To lint and format the code run the following commands:
+To format the code run the following command:
 
 ```sh
-npm run lint
-npm run format
+go fmt ./...
+```
+
+To run the linter on the code run the following command:
+
+```sh
+go vet ./...
 ```
 
 ## Thanks
@@ -109,4 +142,4 @@ Authored and initially maintained by Rico Sta. Cruz in 2016 with help from [cont
 
 Forked in 2022 by [vorburger](https://github.com/vorburger/kingraph).
 
-Forked in 2024 by [alxflam](https://github.com/alxflam/kingraph-ts)
+Forked in 2024 by [alxflam](https://github.com/alxflam/kingraph-go), initially modernized and migrated to TypeScript, afterwards migrated to Go in 2026.
